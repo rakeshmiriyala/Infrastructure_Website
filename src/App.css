@@ -1,0 +1,51 @@
+.ms-slide-layers {
+  position: relative;
+  width: 100%;
+  max-width: 1920px;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+/* Style for the typewriting animation */
+.typewrite .wrap {
+  display: inline-block;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 0;
+  border-right: 2px solid #fff; /* Cursor style */
+  animation: typing 4s steps(30) 1s forwards, blink 0.75s step-end infinite;
+}
+
+/* Typing animation */
+@keyframes typing {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 100%;
+  }
+}
+
+/* Cursor blinking animation */
+@keyframes blink {
+  50% {
+    opacity: 0;
+  }
+}
+
+/* Style for the secondary text */
+.ms-layer.text6 {
+  font-size: 19.5px;
+  line-height: 18.75px;
+  margin-top: 15px;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+/* Center the text vertically */
+.ms-layer {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
