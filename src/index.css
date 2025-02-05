@@ -15,3 +15,8 @@
     --breakpoint-5xl: 200rem; /* 3200px */
   }
   
+  @layer utilities {
+    .slow-spin {
+      @apply animate-[spin_9s_linear_infinite]; /* Slower spin (5s) */
+    }
+  }

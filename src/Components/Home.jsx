@@ -10,6 +10,7 @@ import Industries from './Industries'
 import InfoCard from './InfoCard'
 import Gallery from './Gallery'
 import Navbar from './Navabar'
+import Infrastructure from './Infrastructure'
 
 function Home() {
   return (
@@ -21,6 +22,7 @@ function Home() {
     <ServiceCards/>
     <InfoCard/>
     <Industries/>
+    <Infrastructure/>
     <Gallery/>
     <ContactSection/>
     <AppointmentPage/>

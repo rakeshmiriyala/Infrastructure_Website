@@ -5,16 +5,15 @@ import logo from "../assets/Logo.png";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
-
   return (
-    <header className="bg-white shadow-md sticky top-0 z-50">
+    <header className="bg-white sticky top-0 z-50">
       <div className="flex justify-between items-center p-4 lg:px-40 sm:px-10 xs:px-10 lg:py-6">
         {/* Logo */}
         <Link to="/" id="logo" className="text-2xl font-bold cursor-pointer">
           <img src={logo} alt="Logo" className="h-10" />
         </Link>
         {/* Desktop Menu */}
-        <nav className="hidden md:flex space-x-10 text-lg font-semibold">
+        <nav className="hidden  lg:flex space-x-10 text-lg font-semibold">
           <Link
             to="home"
             smooth={true}
@@ -79,10 +78,9 @@ const Navbar = () => {
             Contact Us
           </Link>
         </nav>
-
         {/* Mobile Menu Button */}
         <button
-          className="md:hidden text-gray-700"
+          className="lg:hidden text-gray-700"
           onClick={() => setIsOpen(!isOpen)}
         >
           {isOpen ? <FaTimes size={24} /> : <FaBars size={24} />}
@@ -91,7 +89,7 @@ const Navbar = () => {
 
       {/* Mobile Menu */}
       {isOpen && (
-        <nav className="md:hidden bg-white shadow-md absolute w-full z-10">
+        <nav className="lg:hidden bg-white shadow-md absolute w-full z-10">
           <ul className="flex flex-col items-end xs:pr-10 sm:pr-15 py-4 space-y-4">
             <li>
               <Link

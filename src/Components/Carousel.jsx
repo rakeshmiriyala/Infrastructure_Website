@@ -30,7 +30,7 @@ const CarouselPage = () => {
   };
 
   return (
-    <div className="relative w-full h-screen overflow-hidden">
+    <div className=" w-full h-screen overflow-hidden">
       <Slider {...settings}>
         {/* Dynamically render carousel images */}
         {images.map((image) => (

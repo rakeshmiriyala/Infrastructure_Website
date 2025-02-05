@@ -4,14 +4,14 @@ import contactBg from "../assets/contact-bg-1.png";
 
 const ContactSection = () => {
   return (
-    <section
-      className="relative py-16 px-4 bg-cover bg-center" id="contact"
+    <div
+      className=" py-16 px-4 bg-cover bg-center" id="contact"
       style={{ backgroundImage: `url(${contactBg})` }}
     >
       {/* Color Overlay (using absolute positioning) */}
-      <div className="absolute inset-0 bg-[#F2EEEA] opacity-50 z-2"></div>
+      <div className="inset-0 bg-[#F2EEEA] opacity-50 z-2"></div>
       {/* Content */}
-      <div className="relative z-10">
+      <div className=" z-10">
         <div className=" mx-auto px-4 lg:px-20 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-2 gap-8 xs:gap-4">
           {/* Left Section */}
           <div className="text-center lg:text-left relative fadeInUp animate-fadeIn">
@@ -134,7 +134,7 @@ const ContactSection = () => {
           </div>
         </div>
       </div>
-    </section>
+    </div>
   );
 };
 

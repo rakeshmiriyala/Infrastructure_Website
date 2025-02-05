@@ -48,7 +48,7 @@ function Gallery() {
   };
 
   return (
-    <div className="px-40 h-screen py-20" id="projects">
+    <div className="px-40 h-auto py-20" id="projects">
       <h2 className="text-3xl font-bold text-center mb-6">Our Gallery</h2>
       <p className="text-center mb-6 text-lg">
         Lorem Ipsum is simply dummy text of the printing and typesetting industry lorem ipsum has been the industry's standard dummy text ever since the when an unknown printer it to make a type specimen book.
@@ -84,7 +84,7 @@ function Gallery() {
           <div className="relative p-6 rounded-lg max-w-4xl w-full">
             {/* Close button */}
             <button
-              className="absolute top-[-80px] right-[-320px] transform -translate-x-1/2 text-white text-3xl"
+              className="absolute top-0 right-[-320px] transform -translate-x-1/2 text-white text-3xl"
               onClick={closeModal}
             >
               <IoMdClose />
