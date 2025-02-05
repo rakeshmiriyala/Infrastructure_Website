@@ -13,7 +13,7 @@ const Navbar = () => {
           <img src={logo} alt="Logo" className="h-10" />
         </Link>
         {/* Desktop Menu */}
-        <nav className="hidden  lg:flex space-x-10 text-lg font-semibold">
+        <nav className="hidden  lg:flex space-x-10 text-md font-semibold">
           <Link
             to="home"
             smooth={true}
