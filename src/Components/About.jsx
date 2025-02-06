@@ -1,12 +1,25 @@
+import { useEffect } from "react";
 import { Lightbulb } from "lucide-react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 import mainImage from "../assets/About_1.jpg";
 import overlayImage from "../assets/About_2.jpg";
 
 function AboutSection() {
+  useEffect(() => {
+    AOS.init({ duration: 1000, once: true });
+  }, []);
+
   return (
-    <div id="about" className="xs:px-8 xs:py-4 sm:px-0 md:py-12 md:px-12 lg:px-40 flex items-center justify-center h-auto lg:h-screen w-full flex-col md:flex-row">
-      {/* Left Side */}
-      <div className="relative w-full sm:w-3/4 md:w-1/2 flex justify-center py-5 sm:py-5 md:py-0">
+    <div
+      id="about"
+      className="xs:px-8 xs:py-4 sm:px-0 md:py-12 md:px-12 lg:px-40 flex items-center justify-center h-auto lg:h-screen w-full flex-col md:flex-row"
+    >
+      {/* Left Side - Image Section (Fade from Left to Right) */}
+      <div
+        className="relative w-full sm:w-3/4 md:w-1/2 flex justify-center py-5 sm:py-5 md:py-0"
+        data-aos="fade-right"
+      >
         <img
           src={mainImage}
           alt="Main"
@@ -19,8 +32,11 @@ function AboutSection() {
         />
       </div>
 
-      {/* Right Side */}
-      <div className="w-full sm:w-3/4 md:w-1/2 xs:space-y-6 md:space-y-2 sm:space-y-8 md:mt-0 xs:mt-10 sm:mt-0">
+      {/* Right Side - Text Content (Fade from Right to Left) */}
+      <div
+        className="w-full sm:w-3/4 md:w-1/2 xs:space-y-6 md:space-y-2 sm:space-y-8 md:mt-0 xs:mt-10 sm:mt-0"
+        data-aos="fade-left"
+      >
         <p className="text-lg text-gray-500">About Story</p>
         <h2 className="text-3xl sm:text-4xl md:text-2xl lg:text-6xl font-bold text-gray-800">
           Start Your Healthy Life Today With Us
