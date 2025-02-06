@@ -33,7 +33,7 @@ function AboutSection() {
           or randomised words.
         </p>  
         <br />
-        <div className="p-4 mb-4 lg:mb-0 sm:p-6 md:p-4 w-full bg-[#403226] text-white rounded-4xl shadow-md">
+        <div className="p-4 mb-4 lg:mb-0 sm:p-6 md:p-4 w-full bg-black text-white rounded-4xl shadow-md">
           <div className="flex items-start space-x-6">
             <Lightbulb className="w-16 h-16 xs:w-26 xs:h-16 sm:w-18 sm:h-18 md:w-20 md:h-20 text-primary" />
             <div>

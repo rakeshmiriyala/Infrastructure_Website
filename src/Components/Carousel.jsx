@@ -15,7 +15,6 @@ const CarouselPage = () => {
     { id: 2, src: image2, alt: "Carousel 2" },
     { id: 3, src: image3, alt: "Carousel 3" },
   ];
-
   const settings = {
     dots: true,
     infinite: true,

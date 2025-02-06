@@ -1,16 +1,16 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
-import image1 from '../assets/Services_1.jpg';
-import image2 from '../assets/Services_2.jpg';
-import image3 from '../assets/Services_3.jpg';
-import image4 from '../assets/Services_4.jpg';
-import bgImage from '../assets/carousel_2.jpg'; // Import background image
+import React from "react";
+import { Link } from "react-router-dom";
+import image1 from "../assets/Services_1.jpg";
+import image2 from "../assets/Services_2.jpg";
+import image3 from "../assets/Services_3.jpg";
+import image4 from "../assets/Services_4.jpg";
+import bgImage from "../assets/carousel_2.jpg";
 
 const images = [
-  { src: image1, alt: 'Image 1', title: 'Software Company', link: '/info1' },
-  { src: image2, alt: 'Image 2', title: 'Hospitals', link: '/info2' },
-  { src: image3, alt: 'Image 3', title: 'Retail Show Rooms', link: '/info3' },
-  { src: image4, alt: 'Image 4', title: 'Landscaping Works', link: '/info4' },
+  { src: image1, alt: "Image 1", title: "Software Company", link: "/info1" },
+  { src: image2, alt: "Image 2", title: "Hospitals", link: "/info2" },
+  { src: image3, alt: "Image 3", title: "Retail Show Rooms", link: "/info3" },
+  { src: image4, alt: "Image 4", title: "Landscaping Works", link: "/info4" },
 ];
 
 const Industries = () => {
@@ -21,10 +21,10 @@ const Industries = () => {
         className="absolute inset-0 bg-cover bg-center bg-fixed"
         style={{
           backgroundImage: `url(${bgImage})`, // Apply imported background image
-          backgroundPosition: 'center',
-          backgroundSize: 'cover',
+          backgroundPosition: "center",
+          backgroundSize: "cover",
           opacity: 0.3, // Slight opacity for the image
-          backgroundColor: 'rgb(0, 0, 0,0.2)', // Semi-transparent black overlay
+          backgroundColor: "rgb(0, 0, 0,0.2)", // Semi-transparent black overlay
         }}
       ></div>
 
@@ -63,7 +63,8 @@ const Industries = () => {
           {/* Right Section for Description */}
           <div className="flex flex-col items-start justify-start mt-4 xs:mt-0 lg:mt-0">
             <p className="lg:mt-4 sm:pt-13 lg:text-md sm:text-xl">
-              We’re continually working to change the way people think about and engage with our products.
+              We’re continually working to change the way people think about and
+              engage with our products.
             </p>
           </div>
         </div>
@@ -72,7 +73,10 @@ const Industries = () => {
       {/* Second Row Div with Images */}
       <div className="grid grid-cols-2 lg:grid-cols-4 lg:gap-10 md:gap-12 sm:px-10 sm:gap-6 p-5 pb-10 md:pb-10 lg:pb-10 xs:pb-8 xs:px-8 lg:px-40 md:px-20 pt-0 gap-5 sm:grid-cols-2">
         {images.map((image, index) => (
-          <div key={index} className="group relative overflow-hidden transition-transform duration-300">
+          <div
+            key={index}
+            className="group relative overflow-hidden transition-transform duration-300"
+          >
             <img
               src={image.src}
               alt={image.alt}
@@ -81,7 +85,9 @@ const Industries = () => {
             {/* Hover effect for only the bottom section */}
             <div className="absolute bottom-0 w-full bg-transparent mb-5 pb-3 pt-1 backdrop-blur-md opacity-0 group-hover:opacity-100 transition-opacity duration-300">
               {/* Add the specific title from the 'images' array */}
-              <h3 className="text-black pl-5 text-2xl mb-2 text-start">{image.title}</h3>
+              <h3 className="text-black pl-5 text-2xl mb-2 text-start">
+                {image.title}
+              </h3>
               {/* Add the link to the "More Info" text */}
               <Link
                 to={image.link} // Use 'to' instead of 'href' for React Router navigation

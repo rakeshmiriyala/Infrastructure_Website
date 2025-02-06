@@ -5,7 +5,7 @@ import mainImage from "../assets/Infrastructure.png";
 const Infrastructure = () => {
   return (
     <div className="px-6 md:px-10 lg:px-40 py-12 md:py-16 lg:py-20 bg-[#fef7f1]" id="infrastructure">
-      <div className="flex flex-col lg:flex-row items-center justify-between gap-12 lg:gap-10">
+      <div className="flex flex-col lg:flex-row items-center justify-between gap-12@ lg:gap-10">
         {/* Left Side */}
         <div className="w-full lg:w-1/2 space-y-6 text-center lg:text-left">
           <h1 className="text-3xl md:text-4xl font-bold">Our Infrastructure</h1>
@@ -17,13 +17,13 @@ const Infrastructure = () => {
           <div className="flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-6 md:gap-8 mt-8">
             {/* Circle 1 */}
             <div className="w-40 h-40 md:w-48 md:h-48 lg:w-52 lg:h-52 bg-white rounded-full flex flex-col items-center justify-center text-black shadow-md">
-              <h1 className="text-3xl md:text-4xl mb-2 text-[#f37e21] font-extrabold">130+</h1>
+              <h1 className="text-3xl md:text-4xl mb-2 text-[#00a69c] font-extrabold">130+</h1>
               <h2 className="text-md md:text-lg mb-2">Completed Projects</h2>
               <p className="text-xs md:text-sm text-center">Lorem ipsum simply</p>
             </div>
             {/* Circle 2 */}
             <div className="w-40 h-40 md:w-48 md:h-48 lg:w-52 lg:h-52 bg-white rounded-full flex flex-col items-center justify-center text-black shadow-md">
-              <h1 className="text-3xl md:text-4xl mb-2 text-[#f37e21] font-extrabold">10+</h1>
+              <h1 className="text-3xl md:text-4xl mb-2 text-[#00a69c] font-extrabold">10+</h1>
               <h2 className="text-md md:text-lg mb-2">Years of Experience</h2>
               <p className="text-xs md:text-sm text-center">Unique Opportunity</p>
             </div>

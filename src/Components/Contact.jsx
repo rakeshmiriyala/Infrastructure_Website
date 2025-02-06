@@ -46,38 +46,38 @@ const ContactSection = () => {
                 <div className="space-y-4 bg-transparent">
                   {/* Phone */}
                   <div className="flex items-center group transition-all hover:cursor-pointer duration-300 py-2 px-4 md:py-0 sm:py-0 xs:px-0 rounded-md">
-                    <div className="bg-[#8A5133] text-white p-3 mr-4 transform group-hover:rotate-360 transition-transform duration-800">
+                    <div className="bg-[#00a69c] text-white p-3 mr-4 transform group-hover:rotate-360 transition-transform duration-800">
                       <FaPhoneAlt className="text-xl" />
                     </div>
                     <a
                       href="tel:+91-1234567890"
-                      className="relative text-lg text-gray-600 group-hover:text-[#8A5133] transition-all duration-300"
+                      className="relative text-lg text-gray-600 group-hover:text-[#00a69c] transition-all duration-300"
                     >
                       +91-1234567890
-                      <span className="absolute left-0 bottom-0 w-full h-[2px] bg-[#8A5133] scale-x-0 group-hover:scale-x-100 transition-transform duration-300 origin-left"></span>
+                      <span className="absolute left-0 bottom-0 w-full h-[2px] bg-[#00a69c] scale-x-0 group-hover:scale-x-100 transition-transform duration-300 origin-left"></span>
                     </a>
                   </div>
                   {/* Email */}
                   <div className="flex items-center group transition-all hover:cursor-pointer duration-300 py-2 px-4 sm:py-0 md:py-0 xs:px-0 rounded-md">
-                    <div className="bg-[#8A5133] text-white p-3 mr-4 transform group-hover:rotate-360 transition-transform duration-800">
+                    <div className="bg-[#00a69c] text-white p-3 mr-4 transform group-hover:rotate-360 transition-transform duration-800">
                       <FaEnvelope className="text-xl" />
                     </div>
                     <a
                       href="mailto:info@aveluelconic.com"
-                      className="relative text-lg text-gray-600 group-hover:text-[#8A5133] transition-all duration-300"
+                      className="relative text-lg text-gray-600 group-hover:text-[#00a69c] transition-all duration-300"
                     >
                       info@aveluelconic.com
-                      <span className="absolute left-0 bottom-0 w-full h-[2px] bg-[#8A5133] scale-x-0 group-hover:scale-x-100 transition-transform duration-300 origin-left"></span>
+                      <span className="absolute left-0 bottom-0 w-full h-[2px] bg-[#00a69c] scale-x-0 group-hover:scale-x-100 transition-transform duration-300 origin-left"></span>
                     </a>
                   </div>
                   {/* Location */}
                   <div className="flex items-center group transition-all hover:cursor-pointer duration-300 py-2 px-4 sm:py-0 md:py-0 xs:px-0 rounded-md">
-                    <div className="bg-[#8A5133] text-white p-3 mr-4 transform group-hover:rotate-360 transition-transform duration-800">
+                    <div className="bg-[#00a69c] text-white p-3 mr-4 transform group-hover:rotate-360 transition-transform duration-800">
                       <FaMapMarkerAlt className="text-xl" />
                     </div>
-                    <address className="relative text-lg text-gray-600 group-hover:text-[#8A5133] transition-all duration-300">
+                    <address className="relative text-lg text-gray-600 group-hover:text-[#00a69c] transition-all duration-300">
                       Ameerpet, Hyderabad, Telangana - 500038.
-                      <span className="absolute left-0 bottom-0 w-full h-[2px] bg-[#8A5133] scale-x-0 group-hover:scale-x-100 transition-transform duration-300 origin-left"></span>
+                      <span className="absolute left-0 bottom-0 w-full h-[2px] bg-[#00a69c] scale-x-0 group-hover:scale-x-100 transition-transform duration-300 origin-left"></span>
                     </address>
                   </div>
                 </div>
@@ -101,30 +101,30 @@ const ContactSection = () => {
                   type="text"
                   name="name"
                   placeholder="Your name"
-                  className="w-full  border-gray-400 focus:outline-none focus:border-[#8A5133] py-3 px-4 transition-all duration-300 border-b group-hover:border-[#8A5133]"
+                  className="w-full  border-gray-400 focus:outline-none focus:border-[#00a69c] py-3 px-4 transition-all duration-300 border-b group-hover:border-[#00a69c]"
                 />
                 <input
                   type="email"
                   name="email"
                   placeholder="Your email"
-                  className="w-full  border-gray-400 focus:outline-none focus:border-[#8A5133] py-3 px-4 transition-all duration-300 border-b group-hover:border-[#8A5133]"
+                  className="w-full  border-gray-400 focus:outline-none focus:border-[#00a69c] py-3 px-4 transition-all duration-300 border-b group-hover:border-[#00a69c]"
                 />
                 <input
                   type="tel"
                   name="phone"
                   placeholder="Your phone no"
-                  className="w-full  border-gray-400 focus:outline-none focus:border-[#8A5133] py-3 px-4 transition-all duration-300 border-b group-hover:border-[#8A5133]"
+                  className="w-full  border-gray-400 focus:outline-none focus:border-[#00a69c] py-3 px-4 transition-all duration-300 border-b group-hover:border-[#00a69c]"
                 />
                 <textarea
                   name="message"
                   placeholder="Write message"
-                  className="w-full border-b border-gray-400 focus:outline-none focus:border-[#8A5133] p-3 px-4 transition-all duration-300  group-hover:border-[#8A5133]"
+                  className="w-full border-b border-gray-400 focus:outline-none focus:border-[#00a69c] p-3 px-4 transition-all duration-300  group-hover:border-[#00a69c]"
                 ></textarea>
 
                 <div className="flex justify-start">
                   <button
                     type="submit"
-                    className="px-6 py-3 bg-[#8A5133] text-white hover:bg-[#7c472a] transition-all duration-300 w-full lg:w-auto"
+                    className="px-6 py-3 bg-[#00a69c] text-white hover:bg-[#7c472a] transition-all duration-300 w-full lg:w-auto"
                   >
                     Send Message
                   </button>
