@@ -67,20 +67,17 @@ function Gallery() {
               onClick={() => openModal(index)}
             />
             <div
-  className="absolute inset-0 flex flex-col items-center justify-center 
-  opacity-100 lg:opacity-0 lg:group-hover:opacity-100 
-  bg-black bg-opacity-90 text-white transition-opacity duration-300"
-  style={{ backgroundColor: "rgba(0, 0, 0, 0.8)" }}
->
-  <h3 className="text-xl">{image.alt}</h3>
-  <button
-    onClick={() => openModal(index)}
-    className="mt-2 text-blue-500 hover:cursor-pointer hover:underline"
-  >
-    View Larger
-  </button>
-</div>
-
+              className="absolute inset-0 flex flex-col items-center justify-center opacity-0 group-hover:opacity-100 bg-black bg-opacity-90 text-white transition-opacity duration-300"
+              style={{ backgroundColor: "rgba(0, 0, 0, 0.8)" }}
+            >
+              <h3 className="text-xl">{image.alt}</h3>
+              <button
+                onClick={() => openModal(index)}
+                className="mt-2 text-blue-500 hover:cursor-pointer hover:underline"
+              >
+                View Larger
+              </button>
+            </div>
           </div>
         ))}
       </div>
@@ -100,7 +97,7 @@ function Gallery() {
             {/* Modal content */}
             <div className="flex items-center justify-between ">
               {/* Left arrow */}
-              <div className="absolute lg:left-[-250px] md:left-[-1px] sm:left-[-1px] xs:left-[-1px] text-white text-2xl hover:cursor-pointer">
+              <div className="absolute lg:left-[-250px] md:left-[-1px] sm:left-[-1px] xs:left- text-white text-2xl hover:cursor-pointer">
                 <button onClick={prevImage}>
                   <AiOutlineLeft />
                 </button>
