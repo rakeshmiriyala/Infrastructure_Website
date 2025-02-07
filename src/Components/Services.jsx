@@ -13,7 +13,7 @@ const Services = () => {
   const words = [
     { word: "CIVIL WORKS", link: "/word1" },
     { word: "INTERIOR WORKS", link: "/word2" },
-    { word: "PLIMBING WORKS", link: "/word3" },
+    { word: "PLUMBING WORKS", link: "/word3" },
     { word: "ELECTRICAL WORKS", link: "/word4" },
     { word: "FIRE FITTING WORKS", link: "/word5" },
     { word: "HVAC WORKS", link: "/word6" },
