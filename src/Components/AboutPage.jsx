@@ -13,11 +13,7 @@ function AboutPage() {
 
   return (
     <>
-      {/* Navbar with AOS animation (Fade Down) */}
-      <div data-aos="fade-down">
-        <Navbar />
-      </div>
-
+      <Navbar />
       <div className="xs:px-8 xs:py-4 sm:px-0 md:py-12 md:px-12 lg:px-40 flex items-center justify-center h-auto lg:h-screen w-full flex-col md:flex-row">
         {/* Left Side with AOS animation (Fade Right) */}
         <div

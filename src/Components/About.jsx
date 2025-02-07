@@ -39,29 +39,20 @@ function AboutSection() {
       >
         <p className="text-lg text-gray-500">About Story</p>
         <h2 className="text-3xl sm:text-4xl md:text-2xl lg:text-6xl font-bold text-gray-800">
-          Crafting excellence, designing dreams!
+        Crafting excellence, designing dreams!
         </h2>
         <p className="lg:text-lg md:text-md text-gray-500">
-          Welcome to your trusted partner in premium interior solutions. We
-          specialize in ceiling, electrical, civil, HVAC, lighting, plumbing,
-          and waterproofing services. With a commitment to quality craftsmanship
-          and innovative designs, our expert team transforms spaces with
-          precision and care. From professional consulting to complete building
-          design, we bring your vision to reality. Let's create exceptional
-          spaces together!
-        </p>
+        Welcome to your trusted partner in premium interior solutions. We specialize in ceiling, electrical, civil, HVAC, lighting, plumbing, and waterproofing services. With a commitment to quality craftsmanship and innovative designs, our expert team transforms spaces with precision and care. From professional consulting to complete building design, we bring your vision to reality. Let's create exceptional spaces together!
+        </p>  
         <br />
         <div className="p-4 mb-4 lg:mb-0 sm:p-6 md:p-4 w-full bg-black text-white rounded-4xl shadow-md">
           <div className="flex items-start space-x-6">
             <Lightbulb className="w-16 h-16 xs:w-26 xs:h-16 sm:w-18 sm:h-18 md:w-20 md:h-20 text-primary" />
             <div>
-              <h3 className="text-xl sm:text-2xl md:text-xl lg:text-2xl font-semibold">
-                Our Vision
-              </h3>
+              <h3 className="text-xl sm:text-2xl md:text-xl lg:text-2xl font-semibold">Our Vision</h3>
               <p className="mt-2 lg:text-lg md:text-sm">
-                It uses a dictionary of over 200 Latin words, combined with a
-                handful of model sentence structures, to generate Lorem Ipsum
-                which looks reasonable.
+                It uses a dictionary of over 200 Latin words, combined with a handful of
+                model sentence structures, to generate Lorem Ipsum which looks reasonable.
               </p>
             </div>
           </div>

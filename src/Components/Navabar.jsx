@@ -57,7 +57,7 @@ const Navbar = () => {
         </nav>
         {/* Mobile Menu Button */}
         <button
-          className="lg:hidden text-gray-700"
+          className="lg:hidden text-gray-700 z-[1000]"
           onClick={() => setIsOpen(!isOpen)}
         >
           {isOpen ? <FaTimes size={24} /> : <FaBars size={24} />}
