@@ -65,8 +65,7 @@ const Industries = () => {
             <p className="lg:mt-4 sm:pt-13 lg:text-md sm:text-xl">
               We cater to a diverse range of industries, including Software
               Companies, Hospitals, Retail Showrooms, Educational Institutions,
-              and Government Projects. <br/> 
-              With innovation at our core, we redefine
+              and Government Projects.With innovation at our core, we redefine
               spaces to enhance functionality, aesthetics, and user experience.
               Let’s build a better future together
             </p>
