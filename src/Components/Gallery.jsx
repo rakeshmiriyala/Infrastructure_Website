@@ -81,7 +81,6 @@ function Gallery() {
           </div>
         ))}
       </div>
-
       {/* Modal */}
       {modalOpen && (
         <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-10">
@@ -97,7 +96,7 @@ function Gallery() {
             {/* Modal content */}
             <div className="flex items-center justify-between ">
               {/* Left arrow */}
-              <div className="absolute lg:left-[-250px] md:left-[-1px] sm:left-[-1px] xs:left- text-white text-2xl hover:cursor-pointer">
+              <div className="absolute lg:left-[-250px] md:left-[-1px] sm:left-[-1px] xs:left-[-1px] text-white text-2xl hover:cursor-pointer">
                 <button onClick={prevImage}>
                   <AiOutlineLeft />
                 </button>
