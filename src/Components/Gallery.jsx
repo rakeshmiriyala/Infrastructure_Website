@@ -48,16 +48,16 @@ function Gallery() {
   };
 
   return (
-    <div className="px-40 h-auto py-20" id="projects">
+    <div className="lg:px-40 md:px-20 md:py-10 sm:px-10 sm:py-10 xs:px-5 xs:py-5 h-auto lg:py-20" id="projects">
       <h2 className="text-3xl font-bold text-center mb-6">Our Gallery</h2>
-      <p className="text-center mb-6 text-lg">
+      <p className="text-center mb-6 lg:text-lg md:text-lg xs:text-md xs:text-start">
         Explore our collection of stunning interior transformations, where
         creativity meets craftsmanship. From modern designs to timeless
         elegance, our gallery showcases the excellence we bring to every
         project. Let our work inspire your next space!{" "}
       </p>
 
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-2">
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 lg:gap-2 md:gap-3 sm:gap-3 xs:gap-2">
         {images.map((image, index) => (
           <div key={index} className="relative group">
             <img
@@ -66,13 +66,14 @@ function Gallery() {
               className="w-full h-auto cursor-pointer"
               onClick={() => openModal(index)}
             />
-            <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 bg-black bg-opacity-50 text-white transition-opacity duration-300">
+            <div
+              className="absolute inset-0 flex flex-col items-center justify-center opacity-0 group-hover:opacity-100 bg-black bg-opacity-90 text-white transition-opacity duration-300"
+              style={{ backgroundColor: "rgba(0, 0, 0, 0.8)" }}
+            >
               <h3 className="text-xl">{image.alt}</h3>
-              <br />
-              <br />
               <button
                 onClick={() => openModal(index)}
-                className="mt-2 text-blue-500"
+                className="mt-2 text-blue-500 hover:cursor-pointer hover:underline"
               >
                 View Larger
               </button>
@@ -87,16 +88,16 @@ function Gallery() {
           <div className="relative p-6 rounded-lg max-w-4xl w-full">
             {/* Close button */}
             <button
-              className="absolute top-0 right-[-320px] transform -translate-x-1/2 text-white text-3xl"
+              className="absolute lg:top-0 lg:right-[-320px] md:top-[-5px] md:right-[-5px] xs:top-[-10px] xs:right-[-5px] hover:cursor-pointer transform -translate-x-1/2 text-white text-3xl"
               onClick={closeModal}
             >
               <IoMdClose />
             </button>
 
             {/* Modal content */}
-            <div className="flex items-center justify-between">
+            <div className="flex items-center justify-between ">
               {/* Left arrow */}
-              <div className="absolute left-[-250px] text-white text-2xl hover:cursor-pointer">
+              <div className="absolute lg:left-[-250px] md:left-[-1px] sm:left-[-1px] xs:left-[-1px] text-white text-2xl hover:cursor-pointer">
                 <button onClick={prevImage}>
                   <AiOutlineLeft />
                 </button>
@@ -112,7 +113,7 @@ function Gallery() {
               </div>
 
               {/* Right arrow */}
-              <div className="absolute right-[-250px] text-white text-3xl cursor-pointer">
+              <div className="absolute lg:right-[-250px] md:right-[-1px] sm:right-[-1px] xs:right-[-1px] text-white text-3xl cursor-pointer">
                 <button onClick={nextImage}>
                   <AiOutlineRight />
                 </button>
