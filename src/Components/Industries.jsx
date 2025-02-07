@@ -33,7 +33,7 @@ const Industries = () => {
         {/* Left Div for Headings */}
         <div className="mx-auto px-4 lg:px-40 py-10 xs:py-5 xs:px-8 sm:px-10 md:px-20 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-2 gap-8 xs:gap-0">
           {/* Left Section */}
-          <div className="text-center lg:py-10 lg:text-left relative fadeInUp animate-fadeIn">
+          <div className="text-center lg:py-16 lg:text-left relative fadeInUp animate-fadeIn">
             <div className="pl-4 p-2 md:p-0 sm:p-4 xs:pl-0 relative">
               {/* Upper Div (for h6 and h3) */}
               <div className="flex flex-col lg:flex-row mb-10 xs:mb-5">
@@ -47,24 +47,28 @@ const Industries = () => {
                 {/* Right Div for "Industries We Serve" */}
                 <div className="flex flex-col items-start justify-start">
                   <h3 className="text-3xl xs:text-2xl pb-4 text-start sm:text-2xl lg:text-4xl font-bold">
-                    Industries We Serve: Software Company,
+                    Industries We Serve: Software Company, Hospitals, Retail Show Rooms, Education and Government Projects ...
                   </h3>
-                  <h3 className="text-3xl xs:text-2xl pb-4 text-start sm:text-2xl lg:text-4xl font-bold">
+                  {/* <h3 className="text-3xl xs:text-2xl pb-4 text-start sm:text-2xl lg:text-4xl font-bold">
                     Hospitals, Retail Show Rooms,
                   </h3>
                   <h3 className="text-3xl xs:text-2xl lg:pb-4 md:pb-0 text-start sm:text-2xl lg:text-4xl font-bold">
                     Education and Government Projects ...
-                  </h3>
+                  </h3> */}
                 </div>
               </div>
             </div>
           </div>
 
           {/* Right Section for Description */}
-          <div className="flex flex-col items-start justify-start mt-4 xs:mt-0 lg:mt-0">
+          <div className="flex flex-col items-start justify-start xs:mt-0 lg:mt-0">
             <p className="lg:mt-4 sm:pt-13 lg:text-md sm:text-xl">
-              We’re continually working to change the way people think about and
-              engage with our products.
+              We cater to a diverse range of industries, including Software
+              Companies, Hospitals, Retail Showrooms, Educational Institutions,
+              and Government Projects. <br/> 
+              With innovation at our core, we redefine
+              spaces to enhance functionality, aesthetics, and user experience.
+              Let’s build a better future together
             </p>
           </div>
         </div>

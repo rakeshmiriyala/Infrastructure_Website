@@ -43,15 +43,16 @@ function AboutPage() {
         >
           <p className="text-lg text-gray-500">About Story</p>
           <h2 className="text-3xl sm:text-4xl md:text-2xl lg:text-6xl font-bold text-gray-800">
-            Start Your Healthy Life Today With Us
+            Crafting excellence, designing dreams!
           </h2>
           <p className="lg:text-lg md:text-md text-gray-500">
-            There are many variations of passages of Lorem Ipsum available, but
-            the majority have suffered alteration in some form, by injected
-            humour, or randomised words which don't look even. The generated
-            Lorem Ipsum is therefore always free from repetition, injected
-            humour, or non-characteristic words etc by injected humour, or
-            randomised words.
+            Welcome to your trusted partner in premium interior solutions. We
+            specialize in ceiling, electrical, civil, HVAC, lighting, plumbing,
+            and waterproofing services. With a commitment to quality
+            craftsmanship and innovative designs, our expert team transforms
+            spaces with precision and care. From professional consulting to
+            complete building design, we bring your vision to reality. Let's
+            create exceptional spaces together!
           </p>
           <br />
           <div className="p-4 mb-4 lg:mb-0 sm:p-6 md:p-4 w-full bg-black text-white rounded-4xl shadow-md">

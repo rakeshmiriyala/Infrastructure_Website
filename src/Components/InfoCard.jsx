@@ -10,13 +10,16 @@ const InfoCard = () => {
       </div>
       {/* Right Div (Text Section) */}
       <div className="lg:w-1/4 md:w-1/2 flex flex-col justify-center sm:w-full xs:w-full">
-        <h1 className="lg:text-4xl md:text-2xl font-bold lg:ml-[-250px] lg:pl-10 lg:py-8 lg:mb-3 lg:leading-15 text-black lg:mt-5 sm:text-xl xs:text-xl xs:text-start text-center md:text-start sm:text-start sm:ml-0 xs:ml-0" style={{ backgroundColor: "rgba(255, 255, 255, 0.8)" }}>
-          Expertise and Innovation of Interior to Inspire You
+        <h1
+          className="lg:text-4xl md:text-2xl font-bold lg:ml-[-250px] lg:pl-10 lg:py-8 lg:mb-3 lg:leading-15 text-black lg:mt-5 sm:text-xl xs:text-xl xs:text-start text-center md:text-start sm:text-start sm:ml-0 xs:ml-0"
+          style={{ backgroundColor: "rgba(255, 255, 255, 0.8)" }}
+        >
+          Expertise & Innovation in Interior Design to Inspire You
         </h1>
         <p className="text-black lg:ml-[-100px] mt-2 xs:text-start sm:text-start md:text-start sm:ml-0 xs:ml-0">
-          There are many variations of passages of Lorem Ipsum available, but
-          the majority have suffered alteration in some form, by injected
-          humour.
+          Discover the perfect blend of creativity and precision in every
+          detail. We craft stunning interiors that reflect elegance,
+          functionality, and innovation.
         </p>
         {/* More Information */}
         <div className="lg:mt-6 md:mt-2 flex items-center lg:ml-[-100px] hover:cursor-pointer sm:justify-center xs:justify-center">

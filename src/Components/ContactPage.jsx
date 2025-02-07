@@ -19,8 +19,10 @@ const ContactPage = () => {
         <div className=" z-10">
           <div className=" mx-auto px-4 lg:px-20 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-2 gap-8 xs:gap-4">
             {/* Left Section */}
-            <div className="text-center lg:text-left relative fadeInUp animate-fadeIn"
-            data-aos="fade-right">
+            <div
+              className="text-center lg:text-left relative fadeInUp animate-fadeIn"
+              data-aos="fade-right"
+            >
               <div className="mb-6 pl-4 p-2 md:p-0 sm:p-4 xs:pl-0 relative">
                 {/* Upper Div (for h6 and h3) */}
                 <div className="flex flex-col lg:flex-row mb-10 xs:mb-5">
@@ -43,11 +45,10 @@ const ContactPage = () => {
                 {/* Lower Div (for p tag and the contact details) */}
                 <div className="mb-6 xs:mb-2">
                   <p className="md:text-lg sm:text-md xs:text-md text-start lg:text-lg text-gray-600 mb-6 xs:mb-4">
-                    There are many variations of passages of Lorem Ipsum
-                    available, but the majority have suffered alteration in some
-                    form, by injected humour passages of available, but the
-                    majority have suffered alteration in some form, by injected
-                    humour.
+                    Let’s bring your dream space to life! Whether it's ceiling,
+                    lighting, plumbing, or complete building design, our experts
+                    are here to help. Reach out today and let's create something
+                    extraordinary together!
                   </p>
                   <div className="space-y-4 bg-transparent">
                     {/* Phone */}
@@ -59,7 +60,7 @@ const ContactPage = () => {
                         href="tel:+91-1234567890"
                         className="relative text-lg text-gray-600 group-hover:text-[#00a69c] transition-all duration-300"
                       >
-                        +91-1234567890
+                        +91-9700071115
                         <span className="absolute left-0 bottom-0 w-full h-[2px] bg-[#00a69c] scale-x-0 group-hover:scale-x-100 transition-transform duration-300 origin-left"></span>
                       </a>
                     </div>
@@ -69,10 +70,10 @@ const ContactPage = () => {
                         <FaEnvelope className="text-xl" />
                       </div>
                       <a
-                        href="mailto:info@aveluelconic.com"
+                        href="mailto:info@exelusiconic.com"
                         className="relative text-lg text-gray-600 group-hover:text-[#00a69c] transition-all duration-300"
                       >
-                        info@aveluelconic.com
+                        info@exelusiconic.com
                         <span className="absolute left-0 bottom-0 w-full h-[2px] bg-[#00a69c] scale-x-0 group-hover:scale-x-100 transition-transform duration-300 origin-left"></span>
                       </a>
                     </div>
@@ -82,8 +83,15 @@ const ContactPage = () => {
                         <FaMapMarkerAlt className="text-xl" />
                       </div>
                       <address className="relative text-lg text-gray-600 group-hover:text-[#00a69c] transition-all duration-300">
-                        Ameerpet, Hyderabad, Telangana - 500038.
-                        <span className="absolute left-0 bottom-0 w-full h-[2px] bg-[#00a69c] scale-x-0 group-hover:scale-x-100 transition-transform duration-300 origin-left"></span>
+                        <a
+                          href="https://www.google.com/maps?q=17.5536403656006,78.4206161499023"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="relative"
+                        >
+                          Suraram, Hyderabad, Telangana - 500055.
+                          <span className="absolute left-0 bottom-0 w-full h-[2px] bg-[#00a69c] scale-x-0 group-hover:scale-x-100 transition-transform duration-300 origin-left"></span>
+                        </a>
                       </address>
                     </div>
                   </div>
@@ -92,8 +100,10 @@ const ContactPage = () => {
             </div>
 
             {/* Right Section */}
-            <div className="text-center lg:text-left relative w-full max-w-lg mx-auto fadeInUp animate-fadeIn"
-            data-aos="fade-left">
+            <div
+              className="text-center lg:text-left relative w-full max-w-lg mx-auto fadeInUp animate-fadeIn"
+              data-aos="fade-left"
+            >
               <form
                 className="bg-white p-8 xs:p-6 relative group hover:bg-opacity-90 transition-all duration-300"
                 action="#"
@@ -142,7 +152,7 @@ const ContactPage = () => {
           </div>
         </div>
       </div>
-      <Footer/>
+      <Footer />
     </>
   );
 };

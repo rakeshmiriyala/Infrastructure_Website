@@ -40,10 +40,10 @@ const Footer = () => {
         {/* Column 5: Social Media Links */}
         <div>
           <h3 className="text-xl font-semibold mb-4">Socials</h3>
-          <p className="flex items-center mb-2 text-lg"><a href="#" className="flex items-center hover:text-gray-400"><FaFacebook className="mr-2 text-blue-600 text-xl sm:text-2xl" /> Facebook</a></p>
+          <p className="flex items-center mb-2 text-lg"><a href="https://www.facebook.com/ExelusIconicEngineering/" className="flex items-center hover:text-gray-400"><FaFacebook className="mr-2 text-blue-600 text-xl sm:text-2xl" /> Facebook</a></p>
           <p className="flex items-center mb-2 text-lg"><a href="#" className="flex items-center hover:text-gray-400"><FaTwitter className="mr-2 text-blue-400 text-xl sm:text-2xl" /> Twitter</a></p>
-          <p className="flex items-center mb-2 text-lg"><a href="#" className="flex items-center hover:text-gray-400"><FaInstagram className="mr-2 text-pink-500 text-xl sm:text-2xl" /> Instagram</a></p>
-          <p className="flex items-center text-lg"><a href="#" className="flex items-center hover:text-gray-400"><FaYoutube className="mr-2 text-red-600 text-xl sm:text-2xl" /> YouTube</a></p>
+          <p className="flex items-center mb-2 text-lg"><a href="https://www.instagram.com/exelus_iconic_engineering/" className="flex items-center hover:text-gray-400"><FaInstagram className="mr-2 text-pink-500 text-xl sm:text-2xl" /> Instagram</a></p>
+          <p className="flex items-center text-lg"><a href="https://youtube.com/@exelusiconicandengineering?si=nLrBOaXa8qTGwYPG" className="flex items-center hover:text-gray-400"><FaYoutube className="mr-2 text-red-600 text-xl sm:text-2xl" /> YouTube</a></p>
         </div>
       </div>
     </footer>

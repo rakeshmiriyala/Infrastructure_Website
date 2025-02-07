@@ -1,25 +1,25 @@
-import React, { useState } from 'react';
-import { AiOutlineLeft, AiOutlineRight } from 'react-icons/ai'; // Import react-icons
-import { IoMdClose } from 'react-icons/io'; // Import close icon
-import galleryImage1 from '../assets/gallery-image1.jpg';
-import galleryImage2 from '../assets/gallery-image2.jpg';
-import galleryImage3 from '../assets/gallery-image3.jpg';
-import galleryImage4 from '../assets/gallery-image4.jpg';
-import galleryImage5 from '../assets/gallery-image5.jpg';
-import galleryImage6 from '../assets/gallery-image6.jpg';
-import galleryImage7 from '../assets/gallery-image7.jpg';
-import galleryImage8 from '../assets/gallery-image8.jpg';
+import React, { useState } from "react";
+import { AiOutlineLeft, AiOutlineRight } from "react-icons/ai"; // Import react-icons
+import { IoMdClose } from "react-icons/io"; // Import close icon
+import galleryImage1 from "../assets/gallery-image1.jpg";
+import galleryImage2 from "../assets/gallery-image2.jpg";
+import galleryImage3 from "../assets/gallery-image3.jpg";
+import galleryImage4 from "../assets/gallery-image4.jpg";
+import galleryImage5 from "../assets/gallery-image5.jpg";
+import galleryImage6 from "../assets/gallery-image6.jpg";
+import galleryImage7 from "../assets/gallery-image7.jpg";
+import galleryImage8 from "../assets/gallery-image8.jpg";
 
 // Array of images
 const images = [
-  { src: galleryImage1, alt: 'Interior Painting' },
-  { src: galleryImage2, alt: 'Interior Painting' },
-  { src: galleryImage3, alt: 'Exterior Painting' },
-  { src: galleryImage4, alt: 'Exterior Painting' },
-  { src: galleryImage5, alt: 'False Ceiling' },
-  { src: galleryImage6, alt: 'False Ceiling' },
-  { src: galleryImage7, alt: 'Polish Work' },
-  { src: galleryImage8, alt: 'Deco Paint' },
+  { src: galleryImage1, alt: "Interior Painting" },
+  { src: galleryImage2, alt: "Interior Painting" },
+  { src: galleryImage3, alt: "Exterior Painting" },
+  { src: galleryImage4, alt: "Exterior Painting" },
+  { src: galleryImage5, alt: "False Ceiling" },
+  { src: galleryImage6, alt: "False Ceiling" },
+  { src: galleryImage7, alt: "Polish Work" },
+  { src: galleryImage8, alt: "Deco Paint" },
 ];
 
 function Gallery() {
@@ -51,7 +51,10 @@ function Gallery() {
     <div className="px-40 h-auto py-20" id="projects">
       <h2 className="text-3xl font-bold text-center mb-6">Our Gallery</h2>
       <p className="text-center mb-6 text-lg">
-        Lorem Ipsum is simply dummy text of the printing and typesetting industry lorem ipsum has been the industry's standard dummy text ever since the when an unknown printer it to make a type specimen book.
+        Explore our collection of stunning interior transformations, where
+        creativity meets craftsmanship. From modern designs to timeless
+        elegance, our gallery showcases the excellence we bring to every
+        project. Let our work inspire your next space!{" "}
       </p>
 
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-2">
@@ -66,7 +69,7 @@ function Gallery() {
             <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 bg-black bg-opacity-50 text-white transition-opacity duration-300">
               <h3 className="text-xl">{image.alt}</h3>
               <br />
-              <br/>
+              <br />
               <button
                 onClick={() => openModal(index)}
                 className="mt-2 text-blue-500"

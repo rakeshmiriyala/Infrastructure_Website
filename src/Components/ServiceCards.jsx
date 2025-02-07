@@ -14,61 +14,62 @@ import iconEngineRepairr from "../assets/icon10.png";
 const services = [
   {
     step: "01",
-    name: "Modern ideas",
+    name: "Modern Ideas",
     extraname: "for Home",
     imageUrl: serviceImage,
-    description: "State-of-the-art diagnostics to accurately identify vehicle issues.",
+    description: "Innovative and stylish interior concepts that redefine your living space with elegance and functionality.",
   },
   {
     step: "02",
     name: "Electrical Works",
     imageUrl: serviceImage,
     iconUrl: iconRepairs,
-    description: "Engine overhauls to brake replacements, we ensure high-quality work for your vehicle’s longevity.",
+    description: "Safe and efficient electrical solutions, ensuring seamless power distribution for homes and commercial spaces.",
   },
   {
     step: "03",
     name: "Fire Fitting Works",
     imageUrl: serviceImage,
     iconUrl: iconMaintenance,
-    description: "Oil changes, tire rotations, and more to enhance performance and prevent future issues.",
+    description: "Advanced fire safety systems designed to protect your space with top-tier fire-resistant solutions.",
   },
   {
     step: "04",
     name: "Water Proofing Works",
     imageUrl: serviceImage,
     iconUrl: iconEngineRepairr,
-    description: "Replace your tires with high-quality options for safety and performance.",
+    description: "Reliable waterproofing techniques to safeguard your building from leaks, moisture, and long-term damage.",
   },
   {
     step: "05",
     name: "Consultation",
     imageUrl: serviceImage,
     iconUrl: iconTireReplacement,
-    description: "Replace your tires with high-quality options for safety and performance.",
+    description: "Expert guidance to help you plan and execute the perfect interior and structural designs for your project.",
   },
   {
     step: "06",
     name: "Building Design",
     imageUrl: serviceImage,
     iconUrl: iconBatteryServices,
-    description: "Keep your vehicle running with regular battery check-ups and replacements.",
+    description: "Architectural excellence that blends creativity and practicality to craft stunning and functional spaces.",
   },
   {
     step: "07",
     name: "Plumbing",
     imageUrl: serviceImage,
     iconUrl: iconBrakeServices,
-    description: "Ensure safety with reliable brake inspection and maintenance.",
+    description: "Efficient plumbing solutions ensuring a smooth water supply and waste management system for your property.",
   },
   {
     step: "08",
     name: "Painting",
     imageUrl: serviceImage,
     iconUrl: iconEngineRepair,
-    description: "Fix engine issues with top-notch repair services for optimal performance.",
+    description: "Premium painting services that add life and personality to your spaces with high-quality finishes.",
   },
 ];
+
 
 const ServiceCards = () => {
   return (
