@@ -80,7 +80,6 @@ const services = [
 
 const ServiceCards = () => {
   const [flipped, setFlipped] = useState(Array(services.length).fill(false));
-
   const toggleFlip = (index) => {
     setFlipped((prev) => {
       return prev.map((_, i) => i === index ? !prev[i] : false);

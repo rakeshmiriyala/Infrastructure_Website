@@ -9,7 +9,6 @@ function AboutSection() {
   useEffect(() => {
     AOS.init({ duration: 1000, once: true });
   }, []);
-
   return (
     <div
       id="about"
@@ -31,7 +30,6 @@ function AboutSection() {
           className="absolute top-1/2 lg:left-1/4 md:left-1/4 xs:left-12 sm:left-1/4 transform -translate-x-1/2 -translate-y-1/2 w-1/2 sm:w-2/3 md:w-1/2 h-auto rounded-4xl"
         />
       </div>
-
       {/* Right Side - Text Content (Fade from Right to Left) */}
       <div
         className="w-full sm:w-3/4 md:w-1/2 xs:space-y-6 md:space-y-2 sm:space-y-8 md:mt-0 xs:mt-10 sm:mt-0"
