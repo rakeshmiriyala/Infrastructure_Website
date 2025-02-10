@@ -1,5 +1,5 @@
 import React from "react";
-import spinImage from "../assets/spin-image.png";
+import spinImage from "../assets/Logo-1.png";
 import mainImage from "../assets/Infrastructure.png";
 
 const Infrastructure = () => {
@@ -48,7 +48,7 @@ const Infrastructure = () => {
           <img
             src={spinImage}
             alt="Spinning"
-            className="w-24 md:w-32 lg:w-36 h-24 md:h-32 lg:h-36 absolute top-4 xs:left-0 sm:left-20 lg:left-0 md:left-10 slow-spin animate-spin z-10"
+            className="w-24 md:w-32 lg:w-24 h-24 md:h-32 lg:h-24 absolute top-4 xs:left-0 sm:left-20 lg:left-0 md:left-10"
           />
           {/* Main Image with Overlay */}
           <img

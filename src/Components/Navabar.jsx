@@ -18,12 +18,12 @@ const Navbar = () => {
       data-aos="fade-down" // Whole Navbar will fade from top to down
     >
       <div
-        className="flex justify-between items-center p-4 lg:px-40 sm:px-10 xs:px-10 lg:py-6"
+        className="flex justify-between items-center p-4 lg:px-40 sm:px-10 xs:px-5 lg:py-3"
         data-aos="fade-down" // Ensures internal elements also fade
       >
         {/* Logo */}
-        <Link to="/" id="logo" className="text-2xl font-bold cursor-pointer">
-          <img src={logo} alt="Logo" className="h-10" />
+        <Link to="/" id="logo" className="text-xl font-bold cursor-pointer">
+          <img src={logo} alt="Logo" className="h-17" />
         </Link>
         {/* Desktop Menu */}
         <nav

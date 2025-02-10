@@ -33,7 +33,7 @@ const Industries = () => {
         {/* Left Div for Headings */}
         <div className="mx-auto px-4 lg:px-40 py-10 xs:py-5 xs:px-8 sm:px-10 md:px-20 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-2 gap-8 xs:gap-0">
           {/* Left Section */}
-          <div className="text-center lg:py-16 lg:text-left relative fadeInUp animate-fadeIn">
+          <div className="text-center lg:pt-16 lg:text-left relative fadeInUp animate-fadeIn">
             <div className="pl-4 p-2 md:p-0 sm:p-4 xs:pl-0 relative">
               {/* Upper Div (for h6 and h3) */}
               <div className="flex flex-col lg:flex-row mb-10 xs:mb-5">
@@ -43,11 +43,22 @@ const Industries = () => {
                     FEATURES
                   </h3>
                 </div>
-
                 {/* Right Div for "Industries We Serve" */}
                 <div className="flex flex-col items-start justify-start">
                   <h3 className="text-3xl xs:text-2xl pb-4 text-start sm:text-2xl lg:text-4xl font-bold">
-                    Industries We Serve: Software Company, Hospitals, Retail Show Rooms, Education and Government Projects ...
+                    Industries We Serve: 
+                  </h3>
+                  <h3 className="text-3xl xs:text-2xl pb-4 text-start sm:text-2xl lg:text-4xl font-bold">
+                    Software Company,
+                  </h3>
+                  <h3 className="text-3xl xs:text-2xl pb-4 text-start sm:text-2xl lg:text-4xl font-bold">
+                    Hospitals,
+                  </h3>
+                  <h3 className="text-3xl xs:text-2xl pb-4 text-start sm:text-2xl lg:text-4xl font-bold">
+                    Retail Show Rooms, 
+                  </h3>
+                  <h3 className="text-3xl xs:text-2xl pb-4 text-start sm:text-2xl lg:text-4xl font-bold">
+                  Education and Government Projects ... 
                   </h3>
                   {/* <h3 className="text-3xl xs:text-2xl pb-4 text-start sm:text-2xl lg:text-4xl font-bold">
                     Hospitals, Retail Show Rooms,

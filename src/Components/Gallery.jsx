@@ -68,12 +68,12 @@ function Gallery() {
             />
             <div
               className="absolute inset-0 flex flex-col items-center justify-center opacity-0 group-hover:opacity-100 bg-black bg-opacity-90 text-white transition-opacity duration-300"
-              style={{ backgroundColor: "rgba(0, 0, 0, 0.8)" }}
+              style={{ backgroundColor: "rgba(0, 0, 0, 0.5)" }}
             >
               <h3 className="text-xl">{image.alt}</h3>
               <button
                 onClick={() => openModal(index)}
-                className="mt-2 text-blue-500 hover:cursor-pointer hover:underline"
+                className="mt-2 p-2 text-black bg-white hover:cursor-pointer hover:underline"
               >
                 View Larger
               </button>
@@ -83,11 +83,11 @@ function Gallery() {
       </div>
       {/* Modal */}
       {modalOpen && (
-        <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-10">
+        <div className="fixed inset-0  bg-opacity-50 flex items-center justify-center z-10">
           <div className="relative p-6 rounded-lg max-w-4xl w-full">
             {/* Close button */}
             <button
-              className="absolute lg:top-0 lg:right-[-320px] md:top-[-5px] md:right-[-5px] xs:top-[-10px] xs:right-[-5px] hover:cursor-pointer transform -translate-x-1/2 text-white text-3xl"
+              className="absolute top-0 lg:right-[-320px] md:right-[-5px] xs:right-[-5px] hover:cursor-pointer transform -translate-x-1/2 text-white text-3xl"
               onClick={closeModal}
             >
               <IoMdClose />

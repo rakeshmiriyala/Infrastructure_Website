@@ -40,27 +40,25 @@ const Services = () => {
 
   return (
     <div className="bg-black" id="services">
-      {/* First div with marquee */}
-      <div className="py-5 pt-10 lg:mb-10 md:mb-5">
-        <Marquee speed={150} gradient={false} pauseOnHover={isPaused}>
+      <div className="py-5 pt-5 lg:mb-10 md:mb-5">
+        {/* <Marquee speed={150} gradient={false} pauseOnHover={isPaused}>
           {words.map((item, index) => (
             <div
               key={index}
               className="flex items-center"
-              onMouseEnter={() => setIsPaused(true)} // Pause the marquee on hover
-              onMouseLeave={() => setIsPaused(false)} // Resume the marquee
+              onMouseEnter={() => setIsPaused(true)}
+              onMouseLeave={() => setIsPaused(false)} 
             >
               <Link
-                to={item.link} // Use 'to' instead of 'href' for React Router navigation
+                to={item.link} 
                 className="lg:text-7xl md:text-5xl xs:text-4xl text-white font-extrabold rounded-lg transition-all duration-300"
               >
                 {item.word}
               </Link>
-              {/* Use the LuArrowDownRight icon */}
               <LuArrowDownRight className="mx-2 text-[#00a69c] lg:text-8xl md:text-6xl xs:text-5xl" />
             </div>
           ))}
-        </Marquee>
+        </Marquee> */}
       </div>
 
       {/* Second div with services section */}
