@@ -79,16 +79,16 @@ const ContactSection = () => {
                       <FaMapMarkerAlt className="text-xl" />
                     </div>
                     <address className="relative text-lg text-gray-600 group-hover:text-[#00a69c] transition-all duration-300">
-                        <a
-                          href="https://www.google.com/maps?q=17.5536403656006,78.4206161499023"
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          className="relative"
-                        >
-                          Suraram, Hyderabad, Telangana - 500055.
-                          <span className="absolute left-0 bottom-0 w-full h-[2px] bg-[#00a69c] scale-x-0 group-hover:scale-x-100 transition-transform duration-300 origin-left"></span>
-                        </a>
-                      </address>
+                      <a
+                        href="https://www.google.com/maps?q=17.5536403656006,78.4206161499023"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="relative"
+                      >
+                        Suraram, Hyderabad, Telangana - 500055.
+                        <span className="absolute left-0 bottom-0 w-full h-[2px] bg-[#00a69c] scale-x-0 group-hover:scale-x-100 transition-transform duration-300 origin-left"></span>
+                      </a>
+                    </address>
                   </div>
                 </div>
               </div>
@@ -115,29 +115,45 @@ const ContactSection = () => {
                   name="name"
                   placeholder="Your name"
                   className="w-full  border-gray-400 focus:outline-none focus:border-[#00a69c] py-3 px-4 transition-all duration-300 border-b group-hover:border-[#00a69c]"
+                  required
                 />
                 <input
                   type="email"
                   name="email"
                   placeholder="Your email"
                   className="w-full  border-gray-400 focus:outline-none focus:border-[#00a69c] py-3 px-4 transition-all duration-300 border-b group-hover:border-[#00a69c]"
+                  required
                 />
                 <input
                   type="tel"
                   name="phone"
                   placeholder="Your phone no"
                   className="w-full  border-gray-400 focus:outline-none focus:border-[#00a69c] py-3 px-4 transition-all duration-300 border-b group-hover:border-[#00a69c]"
+                  required
                 />
+                <select
+                  name="service"
+                  className="w-full text-gray-400 hover:cursor-pointer border-gray-400 focus:outline-none focus:border-[#00a69c] py-3 px-4 transition-all duration-300 border-b group-hover:border-[#00a69c]"
+                  required
+                >
+                  <option value="">Select Service</option>
+                  <option value="Ceiling Works">Ceiling Works</option>
+                  <option value="Lighting Works">Lighting Works</option>
+                  <option value="Plumbing">Plumbing</option>
+                  <option value="Building Design">Building Design</option>
+                  <option value="Consulting">Consulting</option>
+                </select>
                 <textarea
                   name="message"
                   placeholder="Write message"
                   className="w-full border-b border-gray-400 focus:outline-none focus:border-[#00a69c] p-3 px-4 transition-all duration-300  group-hover:border-[#00a69c]"
+                  required
                 ></textarea>
 
                 <div className="flex justify-start">
                   <button
                     type="submit"
-                    className="px-6 py-3 bg-[#00a69c] text-white hover:bg-[#7c472a] transition-all duration-300 w-full lg:w-auto"
+                    className="px-6 py-3 bg-[#00a69c] text-white hover:cursor-pointer transition-all duration-300 w-full lg:w-auto"
                   >
                     Send Message
                   </button>

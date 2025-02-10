@@ -109,7 +109,7 @@ const ServicesPage = () => {
         {/* Second Section: Service Cards */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
           {services.map((service, index) => (
-            <div key={index} className="bg-white overflow-hidden shadow-lg rounded-lg">
+            <div key={index} className="bg-white overflow-hidden">
               <img
                 src={service.image}
                 alt={service.title}

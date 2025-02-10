@@ -1,4 +1,3 @@
-import { FaArrowRight } from "react-icons/fa";
 import sampleImage from "../assets/InfoCard.jpg";
 
 const InfoCard = () => {
@@ -21,11 +20,6 @@ const InfoCard = () => {
           detail. We craft stunning interiors that reflect elegance,
           functionality, and innovation.
         </p>
-        {/* More Information */}
-        <div className="lg:mt-6 md:mt-2 flex items-center lg:ml-[-100px] hover:cursor-pointer sm:justify-center xs:justify-center">
-          <p className="mr-2">More Information</p>
-          <FaArrowRight className="text-xl" />
-        </div>
       </div>
     </div>
   );

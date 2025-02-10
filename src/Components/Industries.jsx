@@ -10,7 +10,7 @@ const images = [
   { src: image1, alt: "Image 1", title: "Software Company", link: "/info1" },
   { src: image2, alt: "Image 2", title: "Hospitals", link: "/info2" },
   { src: image3, alt: "Image 3", title: "Retail Show Rooms", link: "/info3" },
-  { src: image4, alt: "Image 4", title: "Landscaping Works", link: "/info4" },
+  { src: image4, alt: "Image 4", title: "Education", link: "/info4" },
 ];
 
 const Industries = () => {

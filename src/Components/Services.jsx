@@ -1,36 +1,37 @@
-import Marquee from "react-fast-marquee";
-import { LuArrowDownRight } from "react-icons/lu"; // Import the icon
 import image1 from "../assets/Services_1.jpg";
 import image2 from "../assets/Services_2.jpg";
 import image3 from "../assets/Services_3.jpg";
 import image4 from "../assets/Services_4.jpg";
 import { Link } from "react-router-dom";
 
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 
 const Services = () => {
-  // Define words with their corresponding links
-  const words = [
-    { word: "CIVIL WORKS", link: "/word1" },
-    { word: "INTERIOR WORKS", link: "/word2" },
-    { word: "PLUMBING WORKS", link: "/word3" },
-    { word: "ELECTRICAL WORKS", link: "/word4" },
-    { word: "FIRE FITTING WORKS", link: "/word5" },
-    { word: "HVAC WORKS", link: "/word6" },
-    { word: "LANDSCAPING WORKS", link: "/word6" },
-    { word: "WATER PROOFING WORKS", link: "/word6" },
-    { word: "PAINTING/TEXTURE", link: "/word6" },
-  ];
-
+  
   // Define image data with links and specific titles
   const images = [
-    { src: image1, alt: "Image 1", link: "/image1", title: "Interior Works" },
-    { src: image2, alt: "Image 2", link: "/image2", title: "Civil Works" },
-    { src: image3, alt: "Image 3", link: "/image3", title: "HVAC Works" },
+    {
+      src: image1,
+      alt: "Image 1",
+      link: "/services/interior-works",
+      title: "Interior Works",
+    },
+    {
+      src: image2,
+      alt: "Image 2",
+      link: "/services/civil-works",
+      title: "Civil Works",
+    },
+    {
+      src: image3,
+      alt: "Image 3",
+      link: "services/hvac-works",
+      title: "HVAC Works",
+    },
     {
       src: image4,
       alt: "Image 4",
-      link: "/image4",
+      link: "/services/landscaping-works",
       title: "Landscaping Works",
     },
   ];
@@ -41,24 +42,6 @@ const Services = () => {
   return (
     <div className="bg-black" id="services">
       <div className="py-5 pt-5 lg:mb-10 md:mb-5">
-        {/* <Marquee speed={150} gradient={false} pauseOnHover={isPaused}>
-          {words.map((item, index) => (
-            <div
-              key={index}
-              className="flex items-center"
-              onMouseEnter={() => setIsPaused(true)}
-              onMouseLeave={() => setIsPaused(false)} 
-            >
-              <Link
-                to={item.link} 
-                className="lg:text-7xl md:text-5xl xs:text-4xl text-white font-extrabold rounded-lg transition-all duration-300"
-              >
-                {item.word}
-              </Link>
-              <LuArrowDownRight className="mx-2 text-[#00a69c] lg:text-8xl md:text-6xl xs:text-5xl" />
-            </div>
-          ))}
-        </Marquee> */}
       </div>
 
       {/* Second div with services section */}

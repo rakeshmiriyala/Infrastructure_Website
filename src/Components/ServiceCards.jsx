@@ -15,7 +15,7 @@ import iconRepairs from "../assets/icon8.png";
 import iconMaintenance from "../assets/icon9.png";
 import iconTireReplacement from "../assets/icon11.png";
 import iconBatteryServices from "../assets/icon12.png";
-import iconBrakeServices from "../assets/icon12.png";
+import iconBrakeServices from "../assets/icon6.png";
 import iconEngineRepair from "../assets/icon7.png";
 import iconEngineRepairr from "../assets/icon10.png";
 
@@ -60,14 +60,14 @@ const services = [
     name: "Plumbing",
     imageUrl: serviceImage6,
     iconUrl: iconBrakeServices,
-    link: "/services/plumbing",
+    link: "/services/plumbing-works",
   },
   {
     step: "07",
     name: "Painting",
     imageUrl: serviceImage7,
     iconUrl: iconEngineRepair,
-    link: "/services/painting",
+    link: "/services/painting-works",
   },
   {
     step: "08",
