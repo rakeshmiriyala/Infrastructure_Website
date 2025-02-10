@@ -58,7 +58,13 @@ const Industries = () => {
                     Retail Show Rooms, 
                   </h3>
                   <h3 className="text-3xl xs:text-2xl pb-4 text-start sm:text-2xl lg:text-4xl font-bold">
-                  Education and Government Projects ... 
+                  Education,
+                  </h3>
+                  <h3 className="text-3xl xs:text-2xl pb-4 text-start sm:text-2xl lg:text-4xl font-bold">
+                  Government Projects,
+                  </h3>
+                  <h3 className="text-3xl xs:text-2xl pb-4 text-start sm:text-2xl lg:text-4xl font-bold">
+                  Residential Projects ... 
                   </h3>
                   {/* <h3 className="text-3xl xs:text-2xl pb-4 text-start sm:text-2xl lg:text-4xl font-bold">
                     Hospitals, Retail Show Rooms,
