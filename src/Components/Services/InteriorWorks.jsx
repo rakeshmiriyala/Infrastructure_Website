@@ -4,15 +4,15 @@ import civilImg from "../../assets/Services_bg.jpg";
 import Navbar from "../Navabar";
 
 const services = [
-  { title: "Civil Works", link: "/services/civil-works" },
-  { title: "Interior Works", link: "/services/interior-works" },
-  { title: "Plumbing Works", link: "/services/plumbing-works" },
-  { title: "Electrical Works", link: "/services/electrical-works" },
-  { title: "Fire Fitting Works", link: "/services/fire-fitting-works" },
-  { title: "HVAC Works", link: "/services/hvac-works" },
-  { title: "Landscaping Works", link: "/services/landscaping-works" },
-  { title: "Water Proofing Works", link: "/services/water-proofing-works" },
-  { title: "Painting/Texture", link: "/services/painting-works" },
+  { title: "Civil Works", link: "/#/services/civil-works" },
+  { title: "Interior Works", link: "/#/services/interior-works" },
+  { title: "Plumbing Works", link: "/#/services/plumbing-works" },
+  { title: "Electrical Works", link: "/#/services/electrical-works" },
+  { title: "Fire Fitting Works", link: "/#/services/fire-fitting-works" },
+  { title: "HVAC Works", link: "/#/services/hvac-works" },
+  { title: "Landscaping Works", link: "/#/services/landscaping-works" },
+  { title: "Water Proofing Works", link: "/#/services/water-proofing-works" },
+  { title: "Painting/Texture", link: "/#/services/painting-works" },
 ];
 
 const serviceFeatures = [
