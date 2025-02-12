@@ -4,6 +4,8 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import mainImage from "../assets/About_1.jpg";
 import overlayImage from "../assets/About_2.jpg";
+import founderImage from "../assets/founder.jpeg";
+import cofounderImage from "../assets/cofounder.jpeg";
 import Navbar from "./Navabar"; // Importing the Navbar component
 
 function AboutPage() {
@@ -41,24 +43,35 @@ function AboutPage() {
           <h2 className="text-3xl sm:text-4xl md:text-2xl lg:text-6xl font-bold text-gray-800">
             Crafting excellence, designing dreams!
           </h2>
-          <p className="lg:text-lg md:text-md text-gray-500">
-            Welcome to your trusted partner in premium interior solutions. We
-            specialize in ceiling, electrical, civil, HVAC, lighting, plumbing,
-            and waterproofing services. With a commitment to quality
-            craftsmanship and innovative designs, our expert team transforms
-            spaces with precision and care. From professional consulting to
-            complete building design, we bring your vision to reality. Let's
-            create exceptional spaces together!
+          <p className="lg:text-lg md:text-sm text-gray-500">
+            Welcome to your trusted partner in premium interior solutions! We
+            are committed to transforming spaces with unparalleled
+            craftsmanship, innovative design, and precision execution. Our
+            expertise spans across a wide range of services, including ceiling
+            installations, electrical works, civil engineering, HVAC solutions,
+            sophisticated lighting designs, advanced plumbing systems, and
+            cutting-edge waterproofing techniques.
+          </p>
+          <p className="lg:text-lg md:text-sm text-gray-500">
+            With a team of seasoned professionals, we bring visionary concepts
+            to life—whether it's a residential, commercial, or industrial
+            project. Our holistic approach ensures functionality, aesthetics,
+            and sustainability in every design. Beyond execution, we provide
+            expert consulting and full-scale building design solutions, guiding
+            you through every step to turn your vision into reality. At the
+            heart of our mission lies a commitment to quality, efficiency, and
+            innovation. Join us in crafting exceptional spaces that inspire and
+            elevate lifestyles!
           </p>
           <br />
           <div className="p-4 mb-4 lg:mb-0 sm:p-6 md:p-4 w-full bg-black text-white rounded-4xl shadow-md">
             <div className="flex items-start space-x-6">
               <Lightbulb className="w-16 h-16 xs:w-26 xs:h-16 sm:w-18 sm:h-18 md:w-20 md:h-20 text-primary" />
               <div>
-                <h3 className="text-xl sm:text-2xl md:text-xl lg:text-2xl font-semibold">
+                <h3 className="text-xl sm:text-2xl md:text-sm lg:text-2xl font-semibold">
                   Our Vision
                 </h3>
-                <p className="mt-2 lg:text-lg md:text-sm">
+                <p className="mt-2 lg:text-lg md:text-xs">
                   It uses a dictionary of over 200 Latin words, combined with a
                   handful of model sentence structures, to generate Lorem Ipsum
                   which looks reasonable.
@@ -66,6 +79,41 @@ function AboutPage() {
               </div>
             </div>
           </div>
+        </div>
+      </div>
+
+      {/* Founder and Co-founder Cards */}
+      <div className="flex flex-col md:flex-row items-center justify-center gap-8 py-1 px-8 md:px-20">
+        {/* Founder Card */}
+        <div
+          className="bg-white  p-6 text-center w-full md:w-1/3"
+          data-aos="fade-up"
+        >
+          <img
+            src={founderImage}
+            alt="Founder"
+            className="w-32 h-32 rounded-full mx-auto mb-4"
+          />
+          <h3 className="text-2xl font-semibold text-gray-800">Founder</h3>
+          <p className="text-gray-500 mt-2">
+            A visionary leader dedicated to excellence in interior solutions.
+          </p>
+        </div>
+        {/* Co-founder Card */}
+        <div
+          className="bg-white p-6 text-center w-full md:w-1/3"
+          data-aos="fade-up"
+          data-aos-delay="200"
+        >
+          <img
+            src={cofounderImage}
+            alt="Co-founder"
+            className="w-32 h-32 rounded-full mx-auto mb-4"
+          />
+          <h3 className="text-2xl font-semibold text-gray-800">Co-founder</h3>
+          <p className="text-gray-500 mt-2">
+            Passionate about innovative designs and quality craftsmanship.
+          </p>
         </div>
       </div>
     </>

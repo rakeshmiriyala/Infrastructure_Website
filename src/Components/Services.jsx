@@ -1,7 +1,7 @@
-import image1 from "../assets/Services_1.jpg";
-import image2 from "../assets/Services_2.jpg";
-import image3 from "../assets/Services_3.jpg";
-import image4 from "../assets/Services_4.jpg";
+import image1 from "../assets/interior_vr.jpg";
+import image2 from "../assets/civil_vr.jpg";
+import image3 from "../assets/hvac_vr.jpg";
+import image4 from "../assets/landscaping_vr.jpg";
 import { Link } from "react-router-dom";
 
 import React, { useState } from "react";

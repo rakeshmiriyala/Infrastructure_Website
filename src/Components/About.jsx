@@ -39,9 +39,26 @@ function AboutSection() {
         <h2 className="text-3xl sm:text-4xl md:text-2xl lg:text-6xl font-bold text-gray-800">
         Crafting excellence, designing dreams!
         </h2>
-        <p className="lg:text-lg md:text-md text-gray-500">
-        Welcome to your trusted partner in premium interior solutions. We specialize in ceiling, electrical, civil, HVAC, lighting, plumbing, and waterproofing services. With a commitment to quality craftsmanship and innovative designs, our expert team transforms spaces with precision and care. From professional consulting to complete building design, we bring your vision to reality. Let's create exceptional spaces together!
-        </p>  
+        <p className="lg:text-lg md:text-sm text-gray-500">
+            Welcome to your trusted partner in premium interior solutions! We
+            are committed to transforming spaces with unparalleled
+            craftsmanship, innovative design, and precision execution. Our
+            expertise spans across a wide range of services, including ceiling
+            installations, electrical works, civil engineering, HVAC solutions,
+            sophisticated lighting designs, advanced plumbing systems, and
+            cutting-edge waterproofing techniques.
+          </p>
+          <p className="lg:text-lg md:text-sm text-gray-500">
+            With a team of seasoned professionals, we bring visionary concepts
+            to life—whether it's a residential, commercial, or industrial
+            project. Our holistic approach ensures functionality, aesthetics,
+            and sustainability in every design. Beyond execution, we provide
+            expert consulting and full-scale building design solutions, guiding
+            you through every step to turn your vision into reality. At the
+            heart of our mission lies a commitment to quality, efficiency, and
+            innovation. Join us in crafting exceptional spaces that inspire and
+            elevate lifestyles!
+          </p> 
         <br />
         <div className="p-4 mb-4 lg:mb-0 sm:p-6 md:p-4 w-full bg-black text-white rounded-4xl shadow-md">
           <div className="flex items-start space-x-6">

@@ -10,7 +10,7 @@ import serviceImage4 from "../assets/Services_4.jpg";
 import serviceImage5 from "../assets/Services_4.jpg";
 import serviceImage6 from "../assets/Services_3.jpg";
 import serviceImage7 from "../assets/Services_2.jpg";
-import serviceImage8 from "../assets/Services_1.jpg";
+import serviceImage8 from "../assets/Services_2.jpg";
 import iconRepairs from "../assets/icon8.png";
 import iconMaintenance from "../assets/icon9.png";
 import iconTireReplacement from "../assets/icon11.png";

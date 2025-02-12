@@ -132,6 +132,18 @@ const ContactPage = () => {
                     placeholder="Your phone no"
                     className="w-full  border-gray-400 focus:outline-none focus:border-[#00a69c] py-3 px-4 transition-all duration-300 border-b group-hover:border-[#00a69c]"
                   />
+                  <select
+                  name="service"
+                  className="w-full text-gray-400 hover:cursor-pointer border-gray-400 focus:outline-none focus:border-[#00a69c] py-3 px-4 transition-all duration-300 border-b group-hover:border-[#00a69c]"
+                  required
+                >
+                  <option value="">Select Service</option>
+                  <option value="Ceiling Works">Ceiling Works</option>
+                  <option value="Lighting Works">Lighting Works</option>
+                  <option value="Plumbing">Plumbing</option>
+                  <option value="Building Design">Building Design</option>
+                  <option value="Consulting">Consulting</option>
+                </select>
                   <textarea
                     name="message"
                     placeholder="Write message"
