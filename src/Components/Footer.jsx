@@ -32,8 +32,8 @@ const Footer = () => {
         {/* Column 4: Contact Information */}
         <div>
           <h3 className="text-xl font-semibold mb-4">Get in Touch</h3>
-          <p className="mb-2 text-lg" ><a href="#" className="hover:text-gray-400">{'> '}Imperial Towers, 301, 3rd Floor, Ameerpet, Hyderabad, Telangana - 500038.</a></p>
-          <p className="mb-2 text-lg"><a href="#" className="hover:text-gray-400">{'> '}+91-1234567890</a></p>
+          <p className="mb-2 text-lg" ><a href="#" className="hover:text-gray-400">{'> '}Suraram, Hyderabad, Telangana - 500055.</a></p>
+          <p className="mb-2 text-lg"><a href="#" className="hover:text-gray-400">{'> '}+91-9700071115 , +91-9121231237</a></p>
           <p className="text-lg"><a href="mailto:info@exelusiconic.com" className="hover:text-gray-400">{'> '}info@exelusiconic.com</a></p>
         </div>
 

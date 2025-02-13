@@ -43,17 +43,17 @@ const services = [
   },
   {
     step: "04",
-    name: "Consultation",
+    name: "Imported Inteiror Decors",
     imageUrl: serviceImage4,
     iconUrl: iconTireReplacement,
-    link: "/services/consultation",
+    link: "/services/interior-works",
   },
   {
     step: "05",
-    name: "Building Design",
+    name: "Architectural Design",
     imageUrl: serviceImage5,
     iconUrl: iconBatteryServices,
-    link: "/services/building-design",
+    link: "/services/civil-works",
   },
   {
     step: "06",
@@ -64,7 +64,7 @@ const services = [
   },
   {
     step: "07",
-    name: "Painting",
+    name: "Painting & Art Works",
     imageUrl: serviceImage7,
     iconUrl: iconEngineRepair,
     link: "/services/painting-works",
