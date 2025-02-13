@@ -1,6 +1,6 @@
 import React from "react";
 import { FaTools, FaClipboardList, FaCogs, FaShieldAlt } from "react-icons/fa";
-import civilImg from "../../assets/Services_bg.jpg";
+import civilImg from "../../assets/plumbing.jpg";
 import Navbar from "../Navabar";
 
 const services = [

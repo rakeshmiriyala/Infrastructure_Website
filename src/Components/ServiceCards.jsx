@@ -3,14 +3,14 @@ import { Link } from "react-router-dom";
 import { FaArrowRight } from "react-icons/fa";
 
 // Importing images
-import serviceImage1 from "../assets/Services_1.jpg";
-import serviceImage2 from "../assets/Services_2.jpg";
-import serviceImage3 from "../assets/Services_3.jpg";
+import serviceImage1 from "../assets/Electrical_vr_card.jpg";
+import serviceImage2 from "../assets/firefitting_vr_cards.jpg";
+import serviceImage3 from "../assets/waterproofing_vr_cards.jpg";
 import serviceImage4 from "../assets/Services_4.jpg";
 import serviceImage5 from "../assets/Services_4.jpg";
-import serviceImage6 from "../assets/Services_3.jpg";
-import serviceImage7 from "../assets/Services_2.jpg";
-import serviceImage8 from "../assets/Services_2.jpg";
+import serviceImage6 from "../assets/plumbing_vr_cards.jpg";
+import serviceImage7 from "../assets/painting_vr_cards.jpg";
+import serviceImage8 from "../assets/civil_vr_cards.jpg";
 import iconRepairs from "../assets/icon8.png";
 import iconMaintenance from "../assets/icon9.png";
 import iconTireReplacement from "../assets/icon11.png";
