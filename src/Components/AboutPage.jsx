@@ -53,7 +53,7 @@ function AboutPage() {
           </p>
           <p className="lg:text-lg md:text-sm text-gray-500">
             With a team of seasoned professionals, we bring visionary concepts
-            to life—whether it's a residential, commercial, or industrial
+            to life whether it's a residential, commercial, or industrial
             project. Our holistic approach ensures functionality, aesthetics,
             and sustainability in every design. Beyond execution, we provide
             expert consulting and full-scale building design solutions, guiding
