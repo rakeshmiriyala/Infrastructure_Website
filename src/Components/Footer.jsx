@@ -80,17 +80,22 @@ const Footer = () => {
         <div>
           <h3 className="text-xl font-semibold mb-4">Get in Touch</h3>
           <p className="mb-2 text-lg">
-            <a href="#" className="hover:text-gray-400">
+            <a
+              href="https://www.google.com/maps?q=17.5536403656006,78.4206161499023"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="relative hover:text-gray-400"
+            >
               Suraram, Hyderabad, Telangana - 500055.
             </a>
           </p>
           <p className="mb-2 text-lg">
-            <a href="#" className="hover:text-gray-400">
+            <a href="tel:+91-9700071115" className="hover:text-gray-400">
               +91-9700071115
             </a>
           </p>
           <p className="mb-2 text-lg">
-            <a href="#" className="hover:text-gray-400">
+            <a href="tel:+91-9121231237" className="hover:text-gray-400">
               +91-9121231237
             </a>
           </p>

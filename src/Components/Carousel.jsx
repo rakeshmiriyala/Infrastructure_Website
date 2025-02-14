@@ -4,16 +4,28 @@ import Typewriter from "typewriter-effect";
 import "./Crousel.css";
 
 // Import images
-import image1 from "../assets/carousel_1.jpg";
-import image2 from "../assets/carousel_2.jpg";
-import image3 from "../assets/carousel_1.jpg";
+import civilImg from "../assets/civil.jpg";
+import interiorImg from "../assets/interior.jpg";
+import plumbingImg from "../assets/plumbing.jpg";
+import electricalImg from "../assets/Electrical.jpg";
+import fireImg from "../assets/firefitting.jpg";
+import hvacImg from "../assets/hvac.jpg";
+import landscapingImg from "../assets/landscaping.jpg";
+import waterproofingImg from "../assets/waterproofing.jpg";
+import paintingImg from "../assets/painting.jpg";
 
 const CarouselPage = () => {
   // Array of image data
   const images = [
-    { id: 1, src: image1, alt: "Carousel 1" },
-    { id: 2, src: image2, alt: "Carousel 2" },
-    { id: 3, src: image3, alt: "Carousel 3" },
+    { id: 1, src: civilImg, alt: "Carousel 1" },
+    { id: 2, src: interiorImg, alt: "Carousel 2" },
+    { id: 3, src: plumbingImg, alt: "Carousel 3" },
+    { id: 4, src: electricalImg, alt: "Carousel 4" },
+    { id: 5, src: fireImg, alt: "Carousel 5" },
+    { id: 6, src: hvacImg, alt: "Carousel 6" },
+    { id: 7, src: landscapingImg, alt: "Carousel 7" },
+    { id: 8, src: waterproofingImg, alt: "Carousel 8" },
+    { id: 9, src: paintingImg, alt: "Carousel 9" },
   ];
   const settings = {
     dots: true,
