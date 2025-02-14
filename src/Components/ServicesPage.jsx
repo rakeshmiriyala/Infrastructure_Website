@@ -101,7 +101,7 @@ const ServicesPage = () => {
               project.
             </p>
             <p className="text-lg text-start text-gray-600 lg:block hidden ">
-              <br/>
+              <br />
               Our services encompass residential and commercial construction,
               interior design, ceiling and lighting solutions, HVAC
               installations, plumbing, and waterproofing. We also offer
@@ -122,7 +122,6 @@ const ServicesPage = () => {
         <h1 className="text-center text-4xl font-semibold mb-4">
           All Services
         </h1>
-
         {/* Second Section: Service Cards */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
           {services.map((service, index) => (

@@ -7,7 +7,6 @@ import { Link } from "react-router-dom";
 import React, { useState } from "react";
 
 const Services = () => {
-  
   // Define image data with links and specific titles
   const images = [
     {
@@ -41,9 +40,7 @@ const Services = () => {
 
   return (
     <div className="bg-black" id="services">
-      <div className="py-5 pt-5 lg:mb-10 md:mb-5">
-      </div>
-
+      <div className="py-5 pt-5 lg:mb-10 md:mb-5"></div>
       {/* Second div with services section */}
       <div className="flex lg:px-40 lg:mb-20 md:px-20 md:mb-15 sm:px-10 sm:mb-10 xs:px-8 xs:mb-8 rounded-lg shadow-md flex-col sm:flex-row">
         {/* Left Part */}
@@ -56,7 +53,6 @@ const Services = () => {
             Provide
           </h3>
         </div>
-
         {/* Right Part */}
         <div className="w-full sm:w-1/2 mt-5 sm:mt-0">
           <p className="lg:text-lg md:text-md text-white">
@@ -70,7 +66,6 @@ const Services = () => {
           </p>
         </div>
       </div>
-
       {/* Third div with image hover section */}
       <div className="grid grid-cols-2 lg:grid-cols-4 lg:gap-10 md:gap-12 sm:px-10 sm:gap-6 p-5 pb-10 xs:pb-8 xs:px-8 lg:px-40 md:px-20 pt-0 gap-5 sm:grid-cols-2">
         {images.map((image, index) => (

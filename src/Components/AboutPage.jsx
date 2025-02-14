@@ -33,7 +33,6 @@ function AboutPage() {
             className="absolute top-1/2 lg:left-1/4 md:left-1/4 xs:left-12 sm:left-1/4 transform -translate-x-1/2 -translate-y-1/2 w-1/2 sm:w-2/3 md:w-1/2 h-auto rounded-4xl"
           />
         </div>
-
         {/* Right Side with AOS animation (Fade Left) */}
         <div
           className="w-full sm:w-3/4 md:w-1/2 xs:space-y-6 md:space-y-2 sm:space-y-8 md:mt-0 xs:mt-10 sm:mt-0"
@@ -58,10 +57,7 @@ function AboutPage() {
             project. Our holistic approach ensures functionality, aesthetics,
             and sustainability in every design. Beyond execution, we provide
             expert consulting and full-scale building design solutions, guiding
-            you through every step to turn your vision into reality. At the
-            heart of our mission lies a commitment to quality, efficiency, and
-            innovation. Join us in crafting exceptional spaces that inspire and
-            elevate lifestyles!
+            you through every step to turn your vision into reality.
           </p>
           <br />
           <div className="p-4 mb-4 lg:mb-0 sm:p-6 md:p-4 w-full bg-black text-white rounded-4xl shadow-md">
@@ -72,16 +68,17 @@ function AboutPage() {
                   Our Vision
                 </h3>
                 <p className="mt-2 lg:text-lg md:text-xs">
-                  It uses a dictionary of over 200 Latin words, combined with a
-                  handful of model sentence structures, to generate Lorem Ipsum
-                  which looks reasonable.
+                  By blending creativity with precision, we craft interiors that
+                  reflect personality, enhance comfort, and elevate lifestyles.
+                  Our goal is to redefine spaces with innovative design
+                  solutions, exceptional craftsmanship, and a seamless blend of
+                  aesthetics and functionality.
                 </p>
               </div>
             </div>
           </div>
         </div>
       </div>
-
       {/* Founder and Co-founder Cards */}
       <div className="flex flex-col md:flex-row items-center justify-center gap-8 py-1 px-8 md:px-20">
         {/* Founder Card */}

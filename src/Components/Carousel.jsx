@@ -1,6 +1,6 @@
 import React from "react";
 import Slider from "react-slick";
-import Typewriter from 'typewriter-effect'; 
+import Typewriter from "typewriter-effect";
 import "./Crousel.css";
 
 // Import images
@@ -62,7 +62,6 @@ const CarouselPage = () => {
                     />
                   </a>
                 </h4>
-
                 {/* Subheading Text */}
                 <h5 className="text-xl sm:text-2xl md:text-xl lg:text-3xl xl:text-2xl font-thin mt-1">
                   We Provide High-Quality Interior Services

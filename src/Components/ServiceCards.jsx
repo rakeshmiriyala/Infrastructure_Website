@@ -43,7 +43,7 @@ const services = [
   },
   {
     step: "04",
-    name: "Imported Inteiror Decors",
+    name: "Imported Interior Decors",
     imageUrl: serviceImage4,
     iconUrl: iconTireReplacement,
     link: "/services/interior-works",
@@ -92,9 +92,12 @@ const ServiceCards = () => {
                 {/* Background Image with Zoom Effect on Hover */}
                 <div
                   className="absolute inset-0 bg-black opacity-0 transition-all duration-500 group-hover:opacity-80"
-                  style={{ backgroundImage: `url(${service.imageUrl})`, backgroundSize: "cover", backgroundPosition: "center" }}
+                  style={{
+                    backgroundImage: `url(${service.imageUrl})`,
+                    backgroundSize: "cover",
+                    backgroundPosition: "center",
+                  }}
                 ></div>
-
                 {/* Content */}
                 <div className="relative flex flex-col items-center text-center z-10">
                   {/* Icon with Disappear Effect on Hover */}
@@ -110,7 +113,6 @@ const ServiceCards = () => {
                   <h1 className="text-3xl font-semibold mt-4 text-black transition-all duration-500 group-hover:-translate-y-8 group-hover:text-white opacity-100 group-hover:opacity-100">
                     {service.name}
                   </h1>
-
                   {/* Read More Button with Fade-Up Effect */}
                   <Link
                     to={service.link}

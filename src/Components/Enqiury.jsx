@@ -23,7 +23,6 @@ function AppointmentPage() {
           Equiry Now
         </button>
       </div>
-
       {/* Right Section */}
       <div className="w-full md:w-1/2 mt-10 md:mt-0 flex justify-center">
         <img

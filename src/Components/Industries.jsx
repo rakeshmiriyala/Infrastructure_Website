@@ -27,7 +27,6 @@ const Industries = () => {
           backgroundColor: "rgb(0, 0, 0,0.2)", // Semi-transparent black overlay
         }}
       ></div>
-
       {/* First Row Div with 2 Sections (Headings and Description) */}
       <div className="flex flex-col lg:flex-row mb-10 xs:mb-5 relative z-10">
         {/* Left Div for Headings */}
@@ -46,7 +45,7 @@ const Industries = () => {
                 {/* Right Div for "Industries We Serve" */}
                 <div className="flex flex-col items-start justify-start">
                   <h3 className="text-3xl xs:text-2xl pb-4 text-start sm:text-2xl lg:text-4xl font-bold">
-                    Industries We Serve: 
+                    Industries We Serve:
                   </h3>
                   <h3 className="text-3xl xs:text-2xl pb-4 text-start sm:text-2xl lg:text-4xl font-bold">
                     Software Company,
@@ -55,28 +54,21 @@ const Industries = () => {
                     Hospitals,
                   </h3>
                   <h3 className="text-3xl xs:text-2xl pb-4 text-start sm:text-2xl lg:text-4xl font-bold">
-                    Retail Show Rooms, 
+                    Retail Show Rooms,
                   </h3>
                   <h3 className="text-3xl xs:text-2xl pb-4 text-start sm:text-2xl lg:text-4xl font-bold">
-                  Education,
+                    Education,
                   </h3>
                   <h3 className="text-3xl xs:text-2xl pb-4 text-start sm:text-2xl lg:text-4xl font-bold">
-                  Government Projects,
+                    Government Projects,
                   </h3>
                   <h3 className="text-3xl xs:text-2xl pb-4 text-start sm:text-2xl lg:text-4xl font-bold">
-                  Residential Projects ... 
+                    Residential Projects ...
                   </h3>
-                  {/* <h3 className="text-3xl xs:text-2xl pb-4 text-start sm:text-2xl lg:text-4xl font-bold">
-                    Hospitals, Retail Show Rooms,
-                  </h3>
-                  <h3 className="text-3xl xs:text-2xl lg:pb-4 md:pb-0 text-start sm:text-2xl lg:text-4xl font-bold">
-                    Education and Government Projects ...
-                  </h3> */}
                 </div>
               </div>
             </div>
           </div>
-
           {/* Right Section for Description */}
           <div className="flex flex-col items-start justify-start xs:mt-0 lg:mt-0">
             <p className="lg:mt-4 sm:pt-13 lg:text-md sm:text-xl">
@@ -89,7 +81,6 @@ const Industries = () => {
           </div>
         </div>
       </div>
-
       {/* Second Row Div with Images */}
       <div className="grid grid-cols-2 lg:grid-cols-4 lg:gap-10 md:gap-12 sm:px-10 sm:gap-6 p-5 pb-10 md:pb-10 lg:pb-10 xs:pb-8 xs:px-8 lg:px-40 md:px-20 pt-0 gap-5 sm:grid-cols-2">
         {images.map((image, index) => (

@@ -32,7 +32,6 @@ const ContactPage = () => {
                       Contact
                     </h3>
                   </div>
-
                   {/* Right Div for "Reach out & Connect with Us" */}
                   <div className="flex flex-col items-start justify-start">
                     <h3 className="text-3xl xs:text-2xl text-start sm:text-2xl lg:text-5xl font-bold">
@@ -41,7 +40,6 @@ const ContactPage = () => {
                   </div>
                 </div>
                 <hr className="font-thin text-sm mb-6" />
-
                 {/* Lower Div (for p tag and the contact details) */}
                 <div className="mb-6 xs:mb-2">
                   <p className="md:text-lg sm:text-md xs:text-md text-start lg:text-lg text-gray-600 mb-6 xs:mb-4">
@@ -98,7 +96,6 @@ const ContactPage = () => {
                 </div>
               </div>
             </div>
-
             {/* Right Section */}
             <div
               className="text-center lg:text-left relative w-full max-w-lg mx-auto fadeInUp animate-fadeIn"
@@ -133,17 +130,17 @@ const ContactPage = () => {
                     className="w-full  border-gray-400 focus:outline-none focus:border-[#00a69c] py-3 px-4 transition-all duration-300 border-b group-hover:border-[#00a69c]"
                   />
                   <select
-                  name="service"
-                  className="w-full text-gray-400 hover:cursor-pointer border-gray-400 focus:outline-none focus:border-[#00a69c] py-3 px-4 transition-all duration-300 border-b group-hover:border-[#00a69c]"
-                  required
-                >
-                  <option value="">Select Service</option>
-                  <option value="Ceiling Works">Ceiling Works</option>
-                  <option value="Lighting Works">Lighting Works</option>
-                  <option value="Plumbing">Plumbing</option>
-                  <option value="Building Design">Building Design</option>
-                  <option value="Consulting">Consulting</option>
-                </select>
+                    name="service"
+                    className="w-full text-gray-400 hover:cursor-pointer border-gray-400 focus:outline-none focus:border-[#00a69c] py-3 px-4 transition-all duration-300 border-b group-hover:border-[#00a69c]"
+                    required
+                  >
+                    <option value="">Select Service</option>
+                    <option value="Ceiling Works">Ceiling Works</option>
+                    <option value="Lighting Works">Lighting Works</option>
+                    <option value="Plumbing">Plumbing</option>
+                    <option value="Building Design">Building Design</option>
+                    <option value="Consulting">Consulting</option>
+                  </select>
                   <textarea
                     name="message"
                     placeholder="Write message"

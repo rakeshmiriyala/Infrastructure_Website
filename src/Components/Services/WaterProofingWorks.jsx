@@ -63,7 +63,6 @@ const WaterProofingWorks = () => {
             ))}
           </ul>
         </div>
-
         {/* Right Content - Appears Below in Small Screens */}
         <div className="w-full md:w-3/4 md:pl-4 mt-6 md:mt-0">
           {/* Service Image */}
@@ -93,7 +92,6 @@ const WaterProofingWorks = () => {
             From site preparation to finishing, we handle every step with
             precision.
           </p>
-
           {/* Service Features */}
           <h1 className="text-3xl py-4 font-bold">Services Offered</h1>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 mt-6">

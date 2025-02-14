@@ -30,7 +30,7 @@ const Infrastructure = () => {
             {/* Circle 2 */}
             <div className="w-40 h-40 md:w-48 md:h-48 lg:w-52 lg:h-52 bg-white rounded-full flex flex-col items-center justify-center text-black shadow-md">
               <h1 className="text-3xl md:text-4xl mb-2 text-[#00a69c] font-extrabold">
-              500+
+                500+
               </h1>
               <h2 className="text-md md:text-lg mb-2">Residential Projects</h2>
             </div>

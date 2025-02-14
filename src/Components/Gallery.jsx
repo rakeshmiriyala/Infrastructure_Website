@@ -58,7 +58,6 @@ function Gallery() {
         elegance, our gallery showcases the excellence we bring to every
         project. Let our work inspire your next space!
       </p>
-
       {/* Image Grid */}
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
         {images.map((image, index) => (
@@ -81,7 +80,6 @@ function Gallery() {
           </div>
         ))}
       </div>
-
       {/* Modal */}
       {modalOpen && (
         <div className="fixed inset-0 bg-black bg-opacity-10 flex items-center justify-center z-50">
@@ -93,7 +91,6 @@ function Gallery() {
             >
               <IoMdClose />
             </button>
-
             {/* Modal Content */}
             <div className="flex items-center justify-between">
               {/* Left arrow */}
@@ -103,7 +100,6 @@ function Gallery() {
               >
                 <AiOutlineLeft />
               </button>
-
               {/* Image */}
               <div className="mx-auto">
                 <img
@@ -112,7 +108,6 @@ function Gallery() {
                   className="max-w-full max-h-[80vh] object-contain"
                 />
               </div>
-
               {/* Right arrow */}
               <button
                 className="absolute right-4 text-white text-3xl hover:text-gray-500 hover:cursor-pointer"

@@ -28,7 +28,6 @@ const ContactSection = () => {
                     Contact
                   </h3>
                 </div>
-
                 {/* Right Div for "Reach out & Connect with Us" */}
                 <div className="flex flex-col items-start justify-start">
                   <h3 className="text-3xl xs:text-2xl text-start sm:text-2xl lg:text-5xl font-bold">
@@ -37,7 +36,6 @@ const ContactSection = () => {
                 </div>
               </div>
               <hr className="font-thin text-sm mb-6" />
-
               {/* Lower Div (for p tag and the contact details) */}
               <div className="mb-6 xs:mb-2">
                 <p className="md:text-lg sm:text-md xs:text-md text-start lg:text-lg text-gray-600 mb-6 xs:mb-4">
@@ -94,7 +92,6 @@ const ContactSection = () => {
               </div>
             </div>
           </div>
-
           {/* Right Section */}
           <div
             className="text-center lg:text-left relative w-full max-w-lg mx-auto fadeInUp animate-fadeIn"
