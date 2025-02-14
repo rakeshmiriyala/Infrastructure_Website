@@ -56,8 +56,7 @@ const Services = () => {
         {/* Right Part */}
         <div className="w-full sm:w-1/2 mt-5 sm:mt-0">
           <p className="lg:text-lg md:text-md text-white">
-            We offer top-notch interior solutions, blending creativity with
-            precision to transform your spaces. From elegant ceilings and
+            From elegant ceilings and
             efficient electrical works to durable plumbing and expert
             waterproofing, our team ensures perfection in every detail. Whether
             it’s lighting, HVAC, civil works, or complete building design, we

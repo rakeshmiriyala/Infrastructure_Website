@@ -74,9 +74,18 @@ const Industries = () => {
             <p className="lg:mt-4 sm:pt-13 lg:text-md sm:text-xl">
               We cater to a diverse range of industries, including Software
               Companies, Hospitals, Retail Showrooms, Educational Institutions,
-              and Government Projects.With innovation at our core, we redefine
-              spaces to enhance functionality, aesthetics, and user experience.
-              Let’s build a better future together
+              and Government Projects. With innovation at our core, we go beyond
+              conventional design to craft inspiring, functional, and
+              aesthetically captivating spaces. Our expertise lies in seamlessly
+              blending creativity with practicality, ensuring that every project
+              reflects excellence, efficiency, and sophistication.
+            </p>
+            <br/>
+            <p className=" lg:text-md sm:text-xl">
+              From conceptualization to execution, we are committed to
+              delivering transformative designs that enhance productivity,
+              elevate experiences, and create lasting impressions. Let’s build a
+              better future together—one remarkable space at a time.
             </p>
           </div>
         </div>
