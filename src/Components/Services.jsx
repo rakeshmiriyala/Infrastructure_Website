@@ -1,6 +1,6 @@
 import image1 from "../assets/interior_vr.jpg";
-import image2 from "../assets/civil_vr.jpg";
-import image3 from "../assets/hvac_vr.jpg";
+import image2 from "../assets/civil_vr_cards.jpg";
+import image3 from "../assets/hvac.jpg";
 import image4 from "../assets/landscaping_vr.jpg";
 import { Link } from "react-router-dom";
 
