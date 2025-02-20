@@ -133,12 +133,18 @@ const ContactSection = () => {
                   className="w-full hover:cursor-pointer border-gray-400 focus:outline-none focus:border-[#00a69c] py-3 px-4 transition-all duration-300 border-b group-hover:border-[#00a69c]"
                   required
                 >
-                  <option value="" >Select Service</option>
-                  <option value="Ceiling Works">Ceiling Works</option>
-                  <option value="Lighting Works">Lighting Works</option>
-                  <option value="Plumbing">Plumbing</option>
-                  <option value="Building Design">Building Design</option>
-                  <option value="Consulting">Consulting</option>
+                  <option value="">Select Service</option>
+                  <option value="Civil Works">Civil Works</option>
+                  <option value="Imterior Works">Interior Works</option>
+                  <option value="Plumbing Works">Plumbing Works</option>
+                  <option value="Electrical Works">Electrical Works</option>
+                  <option value="Fire Fitting Works">Fire Fitting Works</option>
+                  <option value="HVAC Works">HVAC Works</option>
+                  <option value="Landscaping Works">Landscaping Works</option>
+                  <option value="Water Proofing Works">
+                    Water Proofing Works
+                  </option>
+                  <option value="Painting/Texture">Painting/Texture</option>
                 </select>
                 <textarea
                   name="message"
