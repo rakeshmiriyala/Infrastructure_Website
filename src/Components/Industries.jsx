@@ -4,7 +4,7 @@ import image1 from "../assets/Software.jpg";
 import image2 from "../assets/Hospital.jpg";
 import image3 from "../assets/RetailShowRooms.jpg";
 import image4 from "../assets/Education.jpg";
-import bgImage from "../assets/carousel_2.jpg";
+import bgImage from "../assets/Industries_bg.jpg";
 
 const images = [
   { src: image1, alt: "Image 1", title: "Software Company", link: "/info1" },

@@ -43,7 +43,7 @@ const services = [
   },
   {
     step: "04",
-    name: "Imported Interior Decors",
+    name: "Imported sofa and curtains",
     imageUrl: serviceImage4,
     iconUrl: iconTireReplacement,
     link: "/services/interior-works",
