@@ -4,8 +4,8 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import mainImage from "../assets/About_1.jpg";
 import overlayImage from "../assets/About_2.jpg";
-import founderImage from "../assets/founder.jpeg";
-import cofounderImage from "../assets/cofounder.jpeg";
+import founderImage from "../assets/founder.jpg";
+import cofounderImage from "../assets/cofounder.jpg";
 import Navbar from "./Navabar"; // Importing the Navbar component
 
 function AboutPage() {
@@ -89,7 +89,7 @@ function AboutPage() {
           <img
             src={founderImage}
             alt="Founder"
-            className="w-32 h-32 rounded-full mx-auto mb-4"
+            className="w-36 h-32 rounded-xs mx-auto mb-4"
           />
           <h3 className="text-2xl font-semibold text-gray-800">Founder</h3>
           <p className="text-gray-500 mt-2">
@@ -105,7 +105,7 @@ function AboutPage() {
           <img
             src={cofounderImage}
             alt="Co-founder"
-            className="w-32 h-32 rounded-full mx-auto mb-4"
+            className="w-24 h-32 rounded-xs mx-auto mb-4"
           />
           <h3 className="text-2xl font-semibold text-gray-800">Co-founder</h3>
           <p className="text-gray-500 mt-2">

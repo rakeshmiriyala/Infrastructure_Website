@@ -76,7 +76,7 @@ const CarouselPage = () => {
                         autoStart: true,
                         loop: true,
                         deleteSpeed: 50,
-                        delay: 100,
+                        delay: 90,
                       }}
                     />
                   </a>
