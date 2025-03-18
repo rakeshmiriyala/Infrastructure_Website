@@ -19,9 +19,11 @@ function AppointmentPage() {
           together!
         </p>
         <br />
-        <button className="px-6 py-3 bg-[#00a69c] text-white hover:cursor-pointer font-semibold rounded-4xl">
-          Equiry Now
-        </button>
+        <a href="mailto:info@exelusiconic.com">
+          <button className="px-6 py-3 bg-[#00a69c] text-white hover:cursor-pointer font-semibold rounded-4xl">
+            Enquiry Now
+          </button>
+        </a>
       </div>
       {/* Right Section */}
       <div className="w-full md:w-1/2 mt-10 md:mt-0 flex justify-center">
